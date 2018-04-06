@@ -1,0 +1,916 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BARRIER_SIZE	include/pthread.h	9;"	d
+BASE_DELTA	include/recoplay.h	12;"	d
+BIT0	include/bits.h	2;"	d
+BIT1	include/bits.h	3;"	d
+BIT10	include/bits.h	12;"	d
+BIT11	include/bits.h	13;"	d
+BIT12	include/bits.h	14;"	d
+BIT13	include/bits.h	15;"	d
+BIT14	include/bits.h	16;"	d
+BIT15	include/bits.h	17;"	d
+BIT16	include/bits.h	18;"	d
+BIT17	include/bits.h	19;"	d
+BIT18	include/bits.h	20;"	d
+BIT19	include/bits.h	21;"	d
+BIT2	include/bits.h	4;"	d
+BIT20	include/bits.h	22;"	d
+BIT21	include/bits.h	23;"	d
+BIT22	include/bits.h	24;"	d
+BIT23	include/bits.h	25;"	d
+BIT24	include/bits.h	26;"	d
+BIT25	include/bits.h	27;"	d
+BIT26	include/bits.h	28;"	d
+BIT27	include/bits.h	29;"	d
+BIT28	include/bits.h	30;"	d
+BIT29	include/bits.h	31;"	d
+BIT3	include/bits.h	5;"	d
+BIT30	include/bits.h	32;"	d
+BIT31	include/bits.h	33;"	d
+BIT4	include/bits.h	6;"	d
+BIT5	include/bits.h	7;"	d
+BIT6	include/bits.h	8;"	d
+BIT7	include/bits.h	9;"	d
+BIT8	include/bits.h	10;"	d
+BIT9	include/bits.h	11;"	d
+BITS_PER_LONG	include/linux/asm/types.h	42;"	d
+BIT_ADC	hal/include/vh_variant_hal.h	36;"	d
+BIT_ALLMSK	hal/include/vh_variant_hal.h	37;"	d
+BIT_BAT_FLT	hal/include/vh_variant_hal.h	12;"	d
+BIT_DMA0	hal/include/vh_variant_hal.h	22;"	d
+BIT_DMA1	hal/include/vh_variant_hal.h	23;"	d
+BIT_DMA2	hal/include/vh_variant_hal.h	24;"	d
+BIT_DMA3	hal/include/vh_variant_hal.h	25;"	d
+BIT_EINT0	hal/include/vh_variant_hal.h	5;"	d
+BIT_EINT1	hal/include/vh_variant_hal.h	6;"	d
+BIT_EINT2	hal/include/vh_variant_hal.h	7;"	d
+BIT_EINT3	hal/include/vh_variant_hal.h	8;"	d
+BIT_EINT4_7	hal/include/vh_variant_hal.h	9;"	d
+BIT_EINT8_23	hal/include/vh_variant_hal.h	10;"	d
+BIT_IIC	hal/include/vh_variant_hal.h	32;"	d
+BIT_LCD	hal/include/vh_variant_hal.h	21;"	d
+BIT_NOTUSED24	hal/include/vh_variant_hal.h	29;"	d
+BIT_NOTUSED6	hal/include/vh_variant_hal.h	11;"	d
+BIT_RTC	hal/include/vh_variant_hal.h	35;"	d
+BIT_SDI	hal/include/vh_variant_hal.h	26;"	d
+BIT_SPI0	hal/include/vh_variant_hal.h	27;"	d
+BIT_SPI1	hal/include/vh_variant_hal.h	34;"	d
+BIT_TICK	hal/include/vh_variant_hal.h	13;"	d
+BIT_TIMER0	hal/include/vh_variant_hal.h	15;"	d
+BIT_TIMER1	hal/include/vh_variant_hal.h	16;"	d
+BIT_TIMER2	hal/include/vh_variant_hal.h	17;"	d
+BIT_TIMER3	hal/include/vh_variant_hal.h	18;"	d
+BIT_TIMER4	hal/include/vh_variant_hal.h	19;"	d
+BIT_UART0	hal/include/vh_variant_hal.h	33;"	d
+BIT_UART1	hal/include/vh_variant_hal.h	28;"	d
+BIT_UART2	hal/include/vh_variant_hal.h	20;"	d
+BIT_USBD	hal/include/vh_variant_hal.h	30;"	d
+BIT_USBH	hal/include/vh_variant_hal.h	31;"	d
+BIT_WDT	hal/include/vh_variant_hal.h	14;"	d
+CC	Makefile	/^CC = $(CROSSTOOL)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = -g -O0 -Wall -Wstrict-prototypes -fPIC -msoft-float -nostdinc -nostartfiles -nostdlib -march=armv5 -fno-builtin $(INCLUDE)$/;"	m
+COND_VARIABLE_SIZE	include/pthread.h	8;"	d
+CROSSTOOL	Makefile	/^CROSSTOOL = arm-s5pc1xx-linux-gnueabi-$/;"	m
+CS	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+ClearPending	hal/include/vh_cpu_hal.h	38;"	d
+DELAY	hal/io/led.c	5;"	d	file:
+DI	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+DIRS	Makefile	/^DIRS = kernel hal\/cpu hal\/io shell objs$/;"	m
+D_PRIORITY	include/thread.h	9;"	d
+EI	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+EMPTY	include/macro.h	2;"	d
+EMPTY_STUB_Q	include/macro.h	10;"	d
+EntrySize	include/message_queue.h	/^	int EntrySize;$/;"	m	struct:mq_tbl
+FALSE	hal/cpu/hal_swi_handler.c	14;"	d	file:
+FILL_STUB_Q	include/macro.h	11;"	d
+FIQ_MASK	include/recoplay.h	10;"	d
+FREE	include/macro.h	6;"	d
+FUNCTRACE	include/printk.h	5;"	d
+GPCON0	include/led.h	11;"	d
+GPCON0	include/rt_led.h	17;"	d
+GPCON1	include/led.h	10;"	d
+GPCON1	include/rt_led.h	16;"	d
+GPCON2	include/led.h	9;"	d
+GPCON2	include/rt_led.h	15;"	d
+GPCON3	include/led.h	8;"	d
+GPCON3	include/rt_led.h	14;"	d
+GPCON4	include/rt_led.h	13;"	d
+GPCON5	include/rt_led.h	12;"	d
+GPCON6	include/rt_led.h	11;"	d
+GPCON7	include/rt_led.h	10;"	d
+GPIO_bit	hal/include/vh_cpu_hal.h	56;"	d
+IER	hal/include/vh_cpu_hal.h	62;"	d
+IMAGE_TARGET	objs/Makefile	/^IMAGE_TARGET = vpos_kernel_binary$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I. -I$(TOPDIR)\/include -I$(TOPDIR)\/hal\/include -I$(TOPDIR)\/fs\/include -I\/opt\/s5pc1xx\/cross\/armv7a\/lib\/gcc\/arm-s5pc1xx-linux-gnueabi\/4.2.1\/include$/;"	m
+INIT	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	e	enum:vk_thread_state
+IR	hal/include/vh_cpu_hal.h	64;"	d
+IRQ_MASK	include/recoplay.h	9;"	d
+IS	hal/include/vh_cpu_hal.h	63;"	d
+LD	Makefile	/^LD = $(CROSSTOOL)ld$/;"	m
+LED0	include/rt_led.h	29;"	d
+LED1	include/led.h	18;"	d
+LED1	include/rt_led.h	31;"	d
+LED1OUT	include/led.h	13;"	d
+LED1OUT	include/rt_led.h	19;"	d
+LED2	include/led.h	19;"	d
+LED2	include/rt_led.h	32;"	d
+LED2OUT	include/led.h	14;"	d
+LED2OUT	include/rt_led.h	20;"	d
+LED3	include/led.h	20;"	d
+LED3	include/rt_led.h	33;"	d
+LED3OUT	include/led.h	15;"	d
+LED3OUT	include/rt_led.h	21;"	d
+LED4	include/led.h	21;"	d
+LED4	include/rt_led.h	34;"	d
+LED4OUT	include/led.h	16;"	d
+LED4OUT	include/rt_led.h	22;"	d
+LED5	include/rt_led.h	35;"	d
+LED5OUT	include/rt_led.h	23;"	d
+LED6	include/rt_led.h	36;"	d
+LED6OUT	include/rt_led.h	24;"	d
+LED7	include/rt_led.h	37;"	d
+LED7OUT	include/rt_led.h	25;"	d
+LED8	include/rt_led.h	38;"	d
+LED8OUT	include/rt_led.h	26;"	d
+LED_CR	include/rt_led.h	28;"	d
+LOG_BASE	include/recoplay.h	6;"	d
+MAGIC_BASE	include/recoplay.h	4;"	d
+MAGIC_NUM	include/recoplay.h	3;"	d
+MAGIC_SIZE	include/recoplay.h	5;"	d
+MAXMSGSIZE	include/message_queue.h	4;"	d
+MAXTBLSIZE	include/message_queue.h	6;"	d
+MAX_MISPREDIC_DIFF	include/recoplay.h	13;"	d
+MPOS_HAL_HWI_HANDLER_H	hal/variant/hal_hwi_handler.c	2;"	d	file:
+MQ_NUM	include/message_queue.h	5;"	d
+MQ_SIZE	include/message_queue.h	7;"	d
+MUTEX_SIZE	include/pthread.h	7;"	d
+MsgEntry	include/message_queue.h	/^	int MsgEntry;$/;"	m	struct:mq
+MsgIn	include/message_queue.h	/^	int MsgIn;$/;"	m	struct:mq
+MsgOut	include/message_queue.h	/^	int MsgOut;$/;"	m	struct:mq
+MsgSize	include/message_queue.h	/^	int MsgSize;$/;"	m	struct:mq
+MsgSize	include/message_queue.h	/^	int MsgSize;$/;"	m	struct:mq_tbl
+Mutex	include/pthread.h	/^typedef struct Mutex{$/;"	s
+NAND_BASE	hal/include/vh_io_hal.h	92;"	d
+NAND_CTL_S3C_WAIT	hal/include/vh_io_hal.h	118;"	d
+NF_ADDR	hal/include/vh_io_hal.h	106;"	d
+NF_CLEAR_RB	hal/include/vh_io_hal.h	115;"	d
+NF_CMD	hal/include/vh_io_hal.h	105;"	d
+NF_DETECT_RB	hal/include/vh_io_hal.h	116;"	d
+NF_RDDATA	hal/include/vh_io_hal.h	110;"	d
+NF_RSTECC	hal/include/vh_io_hal.h	109;"	d
+NF_WAITRB	hal/include/vh_io_hal.h	112;"	d
+NF_WRDATA	hal/include/vh_io_hal.h	111;"	d
+NF_nFCE_H	hal/include/vh_io_hal.h	108;"	d
+NF_nFCE_L	hal/include/vh_io_hal.h	107;"	d
+NO_INT	include/dd.h	6;"	d
+NULL	include/linux/stddef.h	4;"	d
+NULL	include/linux/stddef.h	6;"	d
+NULL	include/linux/stddef.h	8;"	d
+NULL	include/vpos_shell.h	3;"	d
+NUM_EVENT_HISTORY	include/recoplay.h	1;"	d
+Not_use	include/rtc_init.h	10;"	d
+OBJS	hal/cpu/Makefile	/^OBJS = HAL_arch_startup.o hal_swi_handler.o $/;"	m
+OBJS	hal/io/Makefile	/^OBJS = serial.o timer.o led.o $/;"	m
+OBJS	hal/variant/Makefile	/^OBJS = hal_hwi_handler.o $/;"	m
+OBJS	kernel/Makefile	/^OBJS = kernel_start.o machine_init.o exception_handler.o $/;"	m
+OBJS	objs/Makefile	/^OBJS = kernel_start.o machine_init.o exception_handler.o HAL_arch_startup.o hal_swi_handler.o led.o serial.o timer.o irq.o vpsh.o$/;"	m
+OBJS	shell/Makefile	/^OBJS = vpsh.o $/;"	m
+OC	Makefile	/^OC = $(CROSSTOOL)objcopy$/;"	m
+OCFLAGS	Makefile	/^OCFLAGS = -O binary -R .note -R .comment -R .stab -R .stabstr -S $/;"	m
+PMUCNT0	include/pmu.h	7;"	d
+PMUCNT1	include/pmu.h	8;"	d
+PMUCNT2	include/pmu.h	9;"	d
+PMUCNT3	include/pmu.h	10;"	d
+PMUCNT4	include/pmu.h	11;"	d
+PMUCNT5	include/pmu.h	12;"	d
+PMUEVT10	include/pmu.h	17;"	d
+PMUEVT12	include/pmu.h	18;"	d
+PMUEVT68	include/pmu.h	19;"	d
+PRE_TARGET	objs/Makefile	/^PRE_TARGET = vpos_kernel-elf32$/;"	m
+QURIX_SWITCH_H	include/switch.h	3;"	d
+QueueSize	include/message_queue.h	/^	int QueueSize;$/;"	m	struct:mq_tbl
+RACE_NO	shell/vpsh.c	12;"	d	file:
+RC	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+READY	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	e	enum:vk_thread_state
+RECOPLAY	hal/variant/hal_hwi_handler.c	4;"	d	file:
+RECOPLAY	include/thread.h	6;"	d
+RECV_DATA	include/macro.h	7;"	d
+RUNNING	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	e	enum:vk_thread_state
+SC	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+SEM_SIZE	include/semaphore.h	8;"	d
+SERIAL_BUFF_SIZE	include/serial.h	2;"	d
+SLEEP	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	e	enum:vk_thread_state
+SRCS	hal/cpu/Makefile	/^SRCS = HAL_arch_startup.S hal_swi_handler.c $/;"	m
+SRCS	hal/io/Makefile	/^SRCS = serial.c timer.c led.c$/;"	m
+SRCS	hal/variant/Makefile	/^SRCS = hal_hwi_handler.c $/;"	m
+SRCS	kernel/Makefile	/^SRCS = kernel_start.c machine_init.c exception_handler.c $/;"	m
+SRCS	shell/Makefile	/^SRCS = vpsh.c$/;"	m
+SW	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	e	enum:vk_swi_vector_type
+SW1	hal/include/vh_cpu_hal.h	57;"	d
+SW2	hal/include/vh_cpu_hal.h	58;"	d
+SW3	hal/include/vh_cpu_hal.h	59;"	d
+SW4	hal/include/vh_cpu_hal.h	60;"	d
+SZ_128K	include/sizes.h	10;"	d
+SZ_128M	include/sizes.h	21;"	d
+SZ_16K	include/sizes.h	8;"	d
+SZ_16M	include/sizes.h	18;"	d
+SZ_1G	include/sizes.h	25;"	d
+SZ_1K	include/sizes.h	5;"	d
+SZ_1M	include/sizes.h	14;"	d
+SZ_256K	include/sizes.h	11;"	d
+SZ_256M	include/sizes.h	22;"	d
+SZ_2G	include/sizes.h	26;"	d
+SZ_2M	include/sizes.h	15;"	d
+SZ_32M	include/sizes.h	19;"	d
+SZ_4K	include/sizes.h	6;"	d
+SZ_4M	include/sizes.h	16;"	d
+SZ_512K	include/sizes.h	12;"	d
+SZ_512M	include/sizes.h	23;"	d
+SZ_64K	include/sizes.h	9;"	d
+SZ_64M	include/sizes.h	20;"	d
+SZ_8K	include/sizes.h	7;"	d
+SZ_8M	include/sizes.h	17;"	d
+Semaphore	include/semaphore.h	/^typedef struct Semaphore{$/;"	s
+TIMER1_COUNT	include/timer.h	44;"	d
+TOPDIR	Makefile	/^TOPDIR	:= $(shell if [ "$$PWD" != "" ]; then echo $$PWD; else pwd; fi)$/;"	m
+TRUE	hal/cpu/hal_swi_handler.c	13;"	d	file:
+U8	hal/include/vh_io_hal.h	91;"	d
+UBOOT_RESET	include/recoplay.h	15;"	d
+UIO_FASTIOV	include/linux/uio.h	29;"	d
+UIO_MAXIOV	include/linux/uio.h	30;"	d
+USE	include/macro.h	3;"	d
+USER_MODE	include/recoplay.h	8;"	d
+Use	include/rtc_init.h	9;"	d
+VPOS_SHELL	shell/vpsh.c	/^void *VPOS_SHELL(void *arg)$/;"	f
+VPOS_SWI_HANDLER_H	include/swi_handler.h	3;"	d
+VPOS_Shell	include/vpos_shell.h	/^} VPOS_Shell;$/;"	t	typeref:struct:__anon1
+VPOS_TIMER_H	include/timer.h	3;"	d
+VPOS_kernel_main	kernel/kernel_start.c	/^void VPOS_kernel_main( void )$/;"	f
+ZOMBI	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	e	enum:vk_thread_state
+_C	include/linux/ctype.h	12;"	d
+_CADDR_T	include/linux/types.h	78;"	d
+_CLOCK_T	include/linux/types.h	73;"	d
+_D	include/linux/ctype.h	11;"	d
+_EINT	include/led.h	6;"	d
+_EINT	include/rt_led.h	8;"	d
+_IN	include/led.h	4;"	d
+_IN	include/rt_led.h	6;"	d
+_L	include/linux/ctype.h	10;"	d
+_LINUX_CTYPE_H	include/linux/ctype.h	2;"	d
+_LINUX_POSIX_TYPES_H	include/linux/posix_types.h	2;"	d
+_LINUX_STDDEF_H	include/linux/stddef.h	2;"	d
+_LINUX_STRING_H_	include/linux/string.h	2;"	d
+_LINUX_TYPES_H	include/linux/types.h	2;"	d
+_OUT	include/led.h	5;"	d
+_OUT	include/rt_led.h	7;"	d
+_P	include/linux/ctype.h	13;"	d
+_PTRDIFF_T	include/linux/types.h	63;"	d
+_S	include/linux/ctype.h	14;"	d
+_SIZE_T	include/linux/types.h	53;"	d
+_SP	include/linux/ctype.h	16;"	d
+_SSIZE_T	include/linux/types.h	58;"	d
+_TIME_T	include/linux/types.h	68;"	d
+_U	include/linux/ctype.h	9;"	d
+_VPOS_DD_H_	include/dd.h	2;"	d
+_VPOS_EXCEPTION_HANDLER_H_	include/exception_handler.h	2;"	d
+_VPOS_HWI_HANDLER_H_	include/hwi_handler.h	2;"	d
+_VPOS_KMALLOC_H_	include/kmalloc.h	2;"	d
+_VPOS_LED_H_	include/led.h	2;"	d
+_VPOS_LED_H_	include/rt_led.h	2;"	d
+_VPOS_MACHINE_INIT_H_	include/machine_init.h	3;"	d
+_VPOS_MALLOC_H_	include/malloc.h	2;"	d
+_VPOS_MESSAGEQUEUE_H_	include/message_queue.h	2;"	d
+_VPOS_PARSER_H_	include/parser.h	2;"	d
+_VPOS_PHTREAD_H_	include/pthread.h	3;"	d
+_VPOS_PRINTF_H_	include/printf.h	3;"	d
+_VPOS_PRINTK_H_	include/printk.h	3;"	d
+_VPOS_QUEUE_H_	include/queue.h	3;"	d
+_VPOS_RTC_API_H_	include/time_api.h	3;"	d
+_VPOS_RTC_H_	include/rtc_init.h	3;"	d
+_VPOS_SCHEDULER_H_	include/scheduler.h	3;"	d
+_VPOS_SEMAPHORE_H_	include/semaphore.h	3;"	d
+_VPOS_SIZE_H_	include/size.h	3;"	d
+_VPOS_STDARG_H_	include/stdarg.h	3;"	d
+_VPOS_STDIO_H_	include/stdio.h	2;"	d
+_VPOS_STDLIB_H_	include/stdlib.h	7;"	d
+_VPOS_THREAD_H_	include/thread.h	3;"	d
+_X	include/linux/ctype.h	15;"	d
+__ARCH_ARM_POSIX_TYPES_H	include/linux/asm/posix_types.h	14;"	d
+__ASM_ARM_STRING_H	include/linux/asm/string.h	2;"	d
+__ASM_ARM_TYPES_H	include/linux/asm/types.h	2;"	d
+__BIT_TYPES_DEFINED__	include/linux/types.h	97;"	d
+__FDELT	include/linux/posix_types.h	30;"	d
+__FDELT	include/linux/posix_types.h	31;"	d
+__FDMASK	include/linux/posix_types.h	33;"	d
+__FDMASK	include/linux/posix_types.h	34;"	d
+__FDSET_LONGS	include/linux/posix_types.h	27;"	d
+__FDSET_LONGS	include/linux/posix_types.h	28;"	d
+__FD_CLR	include/linux/asm/posix_types.h	65;"	d
+__FD_CLR	include/linux/asm/posix_types.h	66;"	d
+__FD_ISSET	include/linux/asm/posix_types.h	69;"	d
+__FD_ISSET	include/linux/asm/posix_types.h	70;"	d
+__FD_SET	include/linux/asm/posix_types.h	61;"	d
+__FD_SET	include/linux/asm/posix_types.h	62;"	d
+__FD_SETSIZE	include/linux/posix_types.h	24;"	d
+__FD_SETSIZE	include/linux/posix_types.h	25;"	d
+__FD_ZERO	include/linux/asm/posix_types.h	73;"	d
+__FD_ZERO	include/linux/asm/posix_types.h	74;"	d
+__HAVE_ARCH_MEMCHR	include/linux/asm/string.h	21;"	d
+__HAVE_ARCH_MEMCPY	include/linux/asm/string.h	15;"	d
+__HAVE_ARCH_MEMMOVE	include/linux/asm/string.h	18;"	d
+__HAVE_ARCH_MEMSET	include/linux/asm/string.h	25;"	d
+__HAVE_ARCH_MEMZERO	include/linux/asm/string.h	24;"	d
+__HAVE_ARCH_STRCHR	include/linux/asm/string.h	12;"	d
+__HAVE_ARCH_STRRCHR	include/linux/asm/string.h	9;"	d
+__LINUX_UIO_H	include/linux/uio.h	2;"	d
+__NFDBITS	include/linux/posix_types.h	21;"	d
+__NFDBITS	include/linux/posix_types.h	22;"	d
+__aeabi_unwind_cpp_pr0	kernel/kernel_start.c	/^void __aeabi_unwind_cpp_pr0(void){}$/;"	f
+__ismask	include/linux/ctype.h	20;"	d
+__kernel_caddr_t	include/linux/asm/posix_types.h	/^typedef char *			__kernel_caddr_t;$/;"	t
+__kernel_clock_t	include/linux/asm/posix_types.h	/^typedef long			__kernel_clock_t;$/;"	t
+__kernel_daddr_t	include/linux/asm/posix_types.h	/^typedef int			__kernel_daddr_t;$/;"	t
+__kernel_dev_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_dev_t;$/;"	t
+__kernel_fd_set	include/linux/posix_types.h	/^} __kernel_fd_set;$/;"	t	typeref:struct:__anon2
+__kernel_fsid_t	include/linux/asm/posix_types.h	/^} __kernel_fsid_t;$/;"	t	typeref:struct:__anon3
+__kernel_gid16_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_gid16_t;$/;"	t
+__kernel_gid32_t	include/linux/asm/posix_types.h	/^typedef unsigned int		__kernel_gid32_t;$/;"	t
+__kernel_gid_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_gid_t;$/;"	t
+__kernel_ino_t	include/linux/asm/posix_types.h	/^typedef unsigned long		__kernel_ino_t;$/;"	t
+__kernel_ipc_pid_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_ipc_pid_t;$/;"	t
+__kernel_key_t	include/linux/posix_types.h	/^typedef int __kernel_key_t;$/;"	t
+__kernel_loff_t	include/linux/asm/posix_types.h	/^typedef long long		__kernel_loff_t;$/;"	t
+__kernel_mode_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_mode_t;$/;"	t
+__kernel_nlink_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_nlink_t;$/;"	t
+__kernel_off_t	include/linux/asm/posix_types.h	/^typedef long			__kernel_off_t;$/;"	t
+__kernel_old_gid_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_old_gid_t;$/;"	t
+__kernel_old_uid_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_old_uid_t;$/;"	t
+__kernel_pid_t	include/linux/asm/posix_types.h	/^typedef int			__kernel_pid_t;$/;"	t
+__kernel_ptrdiff_t	include/linux/asm/posix_types.h	/^typedef int			__kernel_ptrdiff_t;$/;"	t
+__kernel_sighandler_t	include/linux/posix_types.h	/^typedef void (*__kernel_sighandler_t)(int);$/;"	t
+__kernel_size_t	include/linux/asm/posix_types.h	/^typedef unsigned int		__kernel_size_t;$/;"	t
+__kernel_ssize_t	include/linux/asm/posix_types.h	/^typedef int			__kernel_ssize_t;$/;"	t
+__kernel_suseconds_t	include/linux/asm/posix_types.h	/^typedef long			__kernel_suseconds_t;$/;"	t
+__kernel_time_t	include/linux/asm/posix_types.h	/^typedef long			__kernel_time_t;$/;"	t
+__kernel_uid16_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_uid16_t;$/;"	t
+__kernel_uid32_t	include/linux/asm/posix_types.h	/^typedef unsigned int		__kernel_uid32_t;$/;"	t
+__kernel_uid_t	include/linux/asm/posix_types.h	/^typedef unsigned short		__kernel_uid_t;$/;"	t
+__s16	include/linux/asm/types.h	/^typedef __signed__ short __s16;$/;"	t
+__s32	include/linux/asm/types.h	/^typedef __signed__ int __s32;$/;"	t
+__s64	include/linux/asm/types.h	/^typedef __signed__ long long __s64;$/;"	t
+__s8	include/linux/asm/types.h	/^typedef __signed__ char __s8;$/;"	t
+__sizes_h	include/sizes.h	3;"	d
+__tolower	include/linux/ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	include/linux/ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+__u16	include/linux/asm/types.h	/^typedef unsigned short __u16;$/;"	t
+__u32	include/linux/asm/types.h	/^typedef unsigned int __u32;$/;"	t
+__u64	include/linux/asm/types.h	/^typedef unsigned long long __u64;$/;"	t
+__u8	include/linux/asm/types.h	/^typedef unsigned char __u8;$/;"	t
+_vh_CPU_HAL_H_	hal/include/vh_cpu_hal.h	3;"	d
+_vh_IO_HAL_H_	hal/include/vh_io_hal.h	2;"	d
+arr_0	shell/vpsh.c	/^unsigned int arr_0;$/;"	v
+arr_1	shell/vpsh.c	/^unsigned int arr_1;$/;"	v
+arr_2	shell/vpsh.c	/^unsigned int arr_2;$/;"	v
+barrier	include/pthread.h	/^typedef struct barrier{$/;"	s
+barrier_attr	include/pthread.h	/^typedef struct barrier_attr{$/;"	s
+barrier_flag	include/pthread.h	/^	unsigned char barrier_flag;$/;"	m	struct:barrier
+barrier_index	include/pthread.h	/^	unsigned char barrier_index;$/;"	m	struct:barrier
+bottom_line	include/version.h	/^char *bottom_line   = "*********************************************************************************";$/;"	v
+broadcast_thread_id	include/pthread.h	/^char broadcast_thread_id[3];$/;"	v
+caddr_t	include/linux/types.h	/^typedef __kernel_caddr_t	caddr_t;$/;"	t
+clock_t	include/linux/types.h	/^typedef __kernel_clock_t	clock_t;$/;"	t
+command_format	include/vpos_shell.h	/^	char *command_format;$/;"	m	struct:__anon1
+command_string	include/vpos_shell.h	/^	char *command_string;$/;"	m	struct:__anon1
+commands	shell/vpsh.c	/^VPOS_Shell commands[] = {$/;"	v
+cond_attr	include/pthread.h	/^typedef struct cond_attr{$/;"	s
+cond_variable_flag	include/pthread.h	/^	unsigned char cond_variable_flag;$/;"	m	struct:condition_variable
+cond_variable_index	include/pthread.h	/^	unsigned char cond_variable_index;$/;"	m	struct:condition_variable
+condition_variable	include/pthread.h	/^typedef struct condition_variable{$/;"	s
+context_count	include/recoplay.h	/^int context_count; $/;"	v
+counter	include/queue.h	/^	unsigned counter;$/;"	m	struct:vk_Thread_Queue
+cpu_tick	include/thread.h	/^	unsigned int cpu_tick;$/;"	m	struct:vk_thread
+cur_event_id	include/recoplay.h	/^	unsigned int cur_event_id;$/;"	m	struct:event_history
+current_log	include/recoplay.h	/^vr_log_t *current_log;		\/\/ current log structure pointer$/;"	v
+current_thread_id	include/pthread.h	/^	unsigned char current_thread_id;$/;"	m	struct:Mutex
+current_thread_id	include/pthread.h	/^	unsigned char current_thread_id;$/;"	m	struct:condition_variable
+current_thread_id	include/semaphore.h	/^	unsigned char current_thread_id;$/;"	m	struct:Semaphore
+current_thread_priority	include/pthread.h	/^	unsigned char current_thread_priority;$/;"	m	struct:condition_variable
+daddr_t	include/linux/types.h	/^typedef __kernel_daddr_t	daddr_t;$/;"	t
+dev_t	include/linux/types.h	/^typedef __kernel_dev_t		dev_t;$/;"	t
+dma_addr_t	include/linux/asm/types.h	/^typedef u32 dma_addr_t;$/;"	t
+endn	hal/cpu/HAL_arch_startup.S	/^	endn:	.long 0x0000d8fc	\/\/ end address(offset) is file size(byte)$/;"	l
+ev_history	include/recoplay.h	/^struct event_history ev_history;$/;"	v	typeref:struct:event_history
+event	include/recoplay.h	/^	vr_log_t event[NUM_EVENT_HISTORY];$/;"	m	struct:event_history
+event_history	include/recoplay.h	/^struct event_history {$/;"	s
+f	Makefile	/^	dd if=images\/vpos_kernel_binary of=images\/vpos.bin bs=1k conv=sync$/;"	m
+f	Makefile	/^	dd if=utils4\/alpha of=images\/vpos.bin bs=1k seek=3040$/;"	m
+f_fname	include/linux/types.h	/^	char			f_fname[6];$/;"	m	struct:ustat
+f_fpack	include/linux/types.h	/^	char			f_fpack[6];$/;"	m	struct:ustat
+f_tfree	include/linux/types.h	/^	__kernel_daddr_t	f_tfree;$/;"	m	struct:ustat
+f_tinode	include/linux/types.h	/^	__kernel_ino_t		f_tinode;$/;"	m	struct:ustat
+fd_set	include/linux/types.h	/^typedef __kernel_fd_set		fd_set;$/;"	t
+fds_bits	include/linux/posix_types.h	/^	unsigned long fds_bits [__FDSET_LONGS];$/;"	m	struct:__anon2
+file_operations	include/dd.h	/^typedef struct file_operations{$/;"	s
+finger	include/recoplay.h	/^typedef struct finger {$/;"	s
+finger_print	include/recoplay.h	/^} finger_print;$/;"	t	typeref:struct:finger
+flag	include/thread.h	/^	unsigned int flag;$/;"	m	struct:thread_join_struct
+flags	include/rtc_init.h	/^	unsigned int flags ;$/;"	m	struct:sleep_Q
+fop_list	include/dd.h	/^	vk_file_operations_t *fop_list;$/;"	m	struct:vk_device_driver_register_strcut
+fp	include/recoplay.h	/^	finger_print fp;	\/\/ finger print$/;"	m	struct:vr_log
+func	include/thread.h	/^	void *(*func)(void *arg);		$/;"	m	struct:vk_thread
+func	include/vpos_shell.h	/^	void *(*func)(void *arg);$/;"	m	struct:__anon1
+getc	hal/io/serial.c	/^char getc(void)$/;"	f
+gid16_t	include/linux/types.h	/^typedef __kernel_gid16_t        gid16_t;$/;"	t
+gid_t	include/linux/types.h	/^typedef __kernel_gid32_t	gid_t;$/;"	t
+gid_t	include/linux/types.h	/^typedef __kernel_gid_t		gid_t;$/;"	t
+ic	include/recoplay.h	/^	unsigned int ic;	\/\/ instruction counter$/;"	m	struct:vr_log
+id	include/recoplay.h	/^	unsigned int id;	\/\/ id$/;"	m	struct:vr_log
+init_prio	include/pthread.h	/^	unsigned char init_prio;$/;"	m	struct:kcall_mutex
+init_prio	include/semaphore.h	/^	unsigned char init_prio;$/;"	m	struct:kcall_sem
+init_priority	include/thread.h	/^	unsigned int init_priority;	$/;"	m	struct:vk_thread
+init_thread	include/thread.h	/^vk_thread_t init_thread;$/;"	v
+ino_t	include/linux/types.h	/^typedef __kernel_ino_t		ino_t;$/;"	t
+int16_t	include/linux/types.h	/^typedef		__s16		int16_t;$/;"	t
+int32_t	include/linux/types.h	/^typedef		__s32		int32_t;$/;"	t
+int64_t	include/linux/types.h	/^typedef		__s64		int64_t;$/;"	t
+int8_t	include/linux/types.h	/^typedef		__s8		int8_t;$/;"	t
+interrupt_number	include/dd.h	/^	int interrupt_number;$/;"	m	struct:vk_device_driver_register_strcut
+interrupt_state	include/thread.h	/^	unsigned int interrupt_state;$/;"	m	struct:vk_thread
+iov_base	include/linux/uio.h	/^	void *iov_base;		\/* BSD uses caddr_t (1003.1g requires void *) *\/$/;"	m	struct:iovec
+iov_len	include/linux/uio.h	/^	__kernel_size_t iov_len; \/* Must be size_t (1003.1g) *\/$/;"	m	struct:iovec
+iovec	include/linux/uio.h	/^struct iovec$/;"	s
+irq	include/recoplay.h	/^	unsigned char irq;	\/\/ interrupt id$/;"	m	struct:vr_log
+isalnum	include/linux/ctype.h	22;"	d
+isalpha	include/linux/ctype.h	23;"	d
+isascii	include/linux/ctype.h	34;"	d
+iscntrl	include/linux/ctype.h	24;"	d
+isdigit	include/linux/ctype.h	25;"	d
+isgraph	include/linux/ctype.h	26;"	d
+islower	include/linux/ctype.h	27;"	d
+isprint	include/linux/ctype.h	28;"	d
+ispunct	include/linux/ctype.h	29;"	d
+isspace	include/linux/ctype.h	30;"	d
+isupper	include/linux/ctype.h	31;"	d
+isxdigit	include/linux/ctype.h	32;"	d
+item	include/thread.h	/^	unsigned int item[12];$/;"	m	struct:vk_item
+join_thread	include/thread.h	/^	struct vk_thread *join_thread;$/;"	m	struct:vk_thread	typeref:struct:vk_thread::vk_thread
+join_value	include/thread.h	/^	unsigned int join_value;$/;"	m	struct:vk_thread
+kcall_condition_variable	include/pthread.h	/^typedef struct kcall_condition_variable{$/;"	s
+kcall_mutex	include/pthread.h	/^typedef struct kcall_mutex {$/;"	s
+kcall_sem	include/semaphore.h	/^typedef struct kcall_sem {$/;"	s
+kcall_thread_prio	include/pthread.h	/^	unsigned char kcall_thread_prio;$/;"	m	struct:Mutex
+kcall_thread_prio	include/semaphore.h	/^	unsigned char kcall_thread_prio;$/;"	m	struct:Semaphore
+kcall_waiter	include/pthread.h	/^	vk_kcall_cond_t kcall_waiter[3];$/;"	m	struct:condition_variable
+key_t	include/linux/types.h	/^typedef __kernel_key_t		key_t;$/;"	t
+list_head	include/queue.h	/^	vk_thread_t *list_head;$/;"	m	struct:vk_Thread_Queue
+list_tail	include/queue.h	/^	vk_thread_t *list_tail;$/;"	m	struct:vk_Thread_Queue
+lock_holder	include/pthread.h	/^	vk_thread_t *lock_holder;	$/;"	m	struct:Mutex
+loff_t	include/linux/types.h	/^typedef __kernel_loff_t		loff_t;$/;"	t
+m_priority	include/pthread.h	/^	unsigned int m_priority;$/;"	m	struct:Mutex
+m_val	include/pthread.h	/^	unsigned int m_val; 		$/;"	m	struct:Mutex
+m_wait_cnt	include/pthread.h	/^	unsigned int m_wait_cnt;$/;"	m	struct:Mutex
+magicn	hal/cpu/HAL_arch_startup.S	/^	magicn:	.long 0x016f2818	\/\/ Linux magic number$/;"	l
+max_sleepQ_buf	include/rtc_init.h	8;"	d
+mc	include/recoplay.h	/^	unsigned int mc;	\/\/ branch misprediction counter$/;"	m	struct:vr_log
+memset	include/linux/asm/string.h	31;"	d
+memzero	include/linux/asm/string.h	42;"	d
+mode	include/recoplay.h	/^int mode;	\/\/ 0 for record mode, 1 for replay mode$/;"	v
+mode	include/thread.h	/^	unsigned int mode;$/;"	m	struct:vk_thread
+mode_t	include/linux/types.h	/^typedef __kernel_mode_t		mode_t;$/;"	t
+mq	include/message_queue.h	/^typedef struct mq {$/;"	s
+mq_attr	include/message_queue.h	/^typedef struct mq_attr {$/;"	s
+mq_attr	include/message_queue.h	/^vk_mq_attr_t mq_attr[MQ_SIZE];$/;"	v
+mq_curmsgs	include/message_queue.h	/^	long 	mq_curmsgs;	\/\/Number of messages currently queued$/;"	m	struct:mq_attr
+mq_maxmsg	include/message_queue.h	/^	long 	mq_maxmsg; 	\/\/Maxmum nmber of messages$/;"	m	struct:mq_attr
+mq_msgsize	include/message_queue.h	/^	long 	mq_msgsize;	\/\/Maximum message size$/;"	m	struct:mq_attr
+mq_tbl	include/message_queue.h	/^typedef struct mq_tbl{$/;"	s
+mqd_t	include/message_queue.h	/^typedef int mqd_t;$/;"	t
+msg	include/message_queue.h	/^	char msg[MAXMSGSIZE];$/;"	m	struct:mq
+msgQtbl	include/message_queue.h	/^vk_mqtbl_t msgQtbl[MQ_SIZE];$/;"	v
+msgQueue	include/message_queue.h	/^vk_mq_t msgQueue[MQ_SIZE][MAXTBLSIZE];$/;"	v
+msg_q_flag	include/message_queue.h	/^	unsigned char msg_q_flag;$/;"	m	struct:mq_tbl
+msg_q_index	include/message_queue.h	/^	unsigned char msg_q_index;$/;"	m	struct:mq_tbl
+muldiv	include/linux/delay.h	/^static inline unsigned long muldiv(unsigned long a, unsigned long b, unsigned long c)$/;"	f
+mutex_flag	include/pthread.h	/^	unsigned char mutex_flag;$/;"	m	struct:Mutex
+mutex_index	include/pthread.h	/^	unsigned char mutex_index;$/;"	m	struct:Mutex
+mutex_lock_holder	include/pthread.h	/^	vk_kcall_mutex_t mutex_lock_holder;$/;"	m	struct:Mutex
+mutex_wait_thread	include/pthread.h	/^	vk_kcall_mutex_t mutex_wait_thread[3];$/;"	m	struct:Mutex
+mutexattr	include/pthread.h	/^typedef struct mutexattr{$/;"	s
+name	include/dd.h	/^	char *name;$/;"	m	struct:vk_device_driver_register_strcut
+next	include/thread.h	/^	struct vk_thread *next;$/;"	m	struct:vk_thread	typeref:struct:vk_thread::vk_thread
+nlink_t	include/linux/types.h	/^typedef __kernel_nlink_t	nlink_t;$/;"	t
+off_t	include/linux/types.h	/^typedef __kernel_off_t		off_t;$/;"	t
+offsetof	include/linux/stddef.h	11;"	d
+offsetof	include/linux/stddef.h	12;"	d
+old_gid_t	include/linux/types.h	/^typedef __kernel_old_gid_t	old_gid_t;$/;"	t
+old_uid_t	include/linux/types.h	/^typedef __kernel_old_uid_t	old_uid_t;$/;"	t
+pc	include/recoplay.h	/^	unsigned int pc;	\/\/ program counter$/;"	m	struct:vr_log
+pid_t	include/linux/types.h	/^typedef __kernel_pid_t		pid_t;$/;"	t
+pop_idx	include/serial.h	/^unsigned int push_idx, pop_idx;$/;"	v
+prio	include/pthread.h	/^	unsigned char prio;$/;"	m	struct:kcall_mutex
+prio	include/semaphore.h	/^	unsigned char prio;$/;"	m	struct:kcall_sem
+priority	include/queue.h	/^	unsigned priority;$/;"	m	struct:vk_Thread_Queue
+priority	include/thread.h	/^	unsigned int priority;$/;"	m	struct:vk_pthread
+priority	include/thread.h	/^	unsigned int priority;$/;"	m	struct:vk_thread
+pthread_barrier_t	include/pthread.h	/^typedef vk_barrier_t *pthread_barrier_t;$/;"	t
+pthread_barrierattr_t	include/pthread.h	/^} pthread_barrierattr_t;$/;"	t	typeref:struct:barrier_attr
+pthread_cond_t	include/pthread.h	/^typedef vk_cond_t *pthread_cond_t;$/;"	t
+pthread_condattr_t	include/pthread.h	/^} pthread_condattr_t;$/;"	t	typeref:struct:cond_attr
+pthread_mutex_t	include/pthread.h	/^typedef vk_mutex_t *pthread_mutex_t;$/;"	t
+pthread_mutexattr_t	include/pthread.h	/^} pthread_mutexattr_t;$/;"	t	typeref:struct:mutexattr
+pthread_t	include/thread.h	/^} pthread_t;$/;"	t	typeref:struct:vk_pthread
+ptrdiff_t	include/linux/types.h	/^typedef __kernel_ptrdiff_t	ptrdiff_t;$/;"	t
+push_idx	include/serial.h	/^unsigned int push_idx, pop_idx;$/;"	v
+putc	hal/io/serial.c	/^void putc(char c)$/;"	f
+r0	include/recoplay.h	/^	unsigned int r0;$/;"	m	struct:finger
+r1	include/recoplay.h	/^	unsigned int r1;$/;"	m	struct:finger
+r10	include/recoplay.h	/^	unsigned int r10;$/;"	m	struct:finger
+r11	include/recoplay.h	/^	unsigned int r11;$/;"	m	struct:finger
+r12	include/recoplay.h	/^	unsigned int r12;$/;"	m	struct:finger
+r13	include/recoplay.h	/^	unsigned int r13;$/;"	m	struct:finger
+r2	include/recoplay.h	/^	unsigned int r2;$/;"	m	struct:finger
+r3	include/recoplay.h	/^	unsigned int r3;$/;"	m	struct:finger
+r4	include/recoplay.h	/^	unsigned int r4;$/;"	m	struct:finger
+r5	include/recoplay.h	/^	unsigned int r5;$/;"	m	struct:finger
+r6	include/recoplay.h	/^	unsigned int r6;$/;"	m	struct:finger
+r7	include/recoplay.h	/^	unsigned int r7;$/;"	m	struct:finger
+r8	include/recoplay.h	/^	unsigned int r8;$/;"	m	struct:finger
+r9	include/recoplay.h	/^	unsigned int r9;$/;"	m	struct:finger
+rEXTINT0	hal/include/vh_cpu_hal.h	52;"	d
+rGPFCON	hal/include/vh_cpu_hal.h	49;"	d
+rGPFDAT	hal/include/vh_cpu_hal.h	50;"	d
+rGPFUP	hal/include/vh_cpu_hal.h	51;"	d
+race_ex_0	shell/vpsh.c	/^void *race_ex_0(void *arg)$/;"	f
+race_ex_1	shell/vpsh.c	/^void *race_ex_1(void *arg)$/;"	f
+race_ex_2	shell/vpsh.c	/^void *race_ex_2(void *arg)$/;"	f
+race_log	shell/vpsh.c	/^void *race_log(void *arg)$/;"	f
+race_var	include/recoplay.h	/^unsigned int race_var;$/;"	v
+read_register	include/swi_handler.h	7;"	d
+register_dev	include/dd.h	/^	unsigned int register_dev;$/;"	m	struct:vk_device_driver_register_strcut
+return_value	include/thread.h	/^	void *return_value;$/;"	m	struct:vk_thread
+rtcarg1	include/thread.h	/^	unsigned int rtcarg1;		$/;"	m	struct:vk_thread
+rtcarg2	include/thread.h	/^	struct vk_item rtcarg2;		$/;"	m	struct:vk_thread	typeref:struct:vk_thread::vk_item
+rtcarg3	include/thread.h	/^	unsigned int rtcarg3;		$/;"	m	struct:vk_thread
+rtcarg4	include/thread.h	/^	unsigned int rtcarg4;		$/;"	m	struct:vk_thread
+rtcfunc	include/thread.h	/^	unsigned int rtcfunc;$/;"	m	struct:vk_thread
+s16	include/linux/asm/types.h	/^typedef signed short s16;$/;"	t
+s32	include/linux/asm/types.h	/^typedef signed int s32;$/;"	t
+s64	include/linux/asm/types.h	/^typedef signed long long s64;$/;"	t
+s8	include/linux/asm/types.h	/^typedef signed char s8;$/;"	t
+saved_sched_lock	include/thread.h	/^	int saved_sched_lock;$/;"	m	struct:vk_thread
+sched_lock_counter	include/thread.h	/^	unsigned int sched_lock_counter;$/;"	m	struct:vk_thread
+sectime	include/rtc_init.h	/^	unsigned int sectime;$/;"	m	struct:sleep_Q
+sem_desc	include/semaphore.h	/^	unsigned char sem_desc;$/;"	m	struct:Semaphore
+sem_flag	include/semaphore.h	/^	unsigned char sem_flag;$/;"	m	struct:Semaphore
+sem_holder	include/semaphore.h	/^	vk_thread_t *sem_holder[3];$/;"	m	struct:Semaphore
+sem_init_val	include/semaphore.h	/^	unsigned int sem_init_val;$/;"	m	struct:Semaphore
+sem_priority	include/semaphore.h	/^	unsigned int sem_priority;$/;"	m	struct:Semaphore
+sem_t	include/semaphore.h	/^typedef vk_sem_t *sem_t;$/;"	t
+sem_val	include/semaphore.h	/^	int 	     sem_val;$/;"	m	struct:Semaphore
+sem_wait_cnt	include/semaphore.h	/^	unsigned int sem_wait_cnt;$/;"	m	struct:Semaphore
+serial_buff	include/serial.h	/^char serial_buff[SERIAL_BUFF_SIZE];$/;"	v
+set_interrupt	kernel/kernel_start.c	/^void set_interrupt(void)$/;"	f
+signal_waiter	include/pthread.h	/^	vk_thread_t *signal_waiter[3];$/;"	m	struct:condition_variable
+size_t	include/linux/types.h	/^typedef __kernel_size_t		size_t;$/;"	t
+sleepThread	include/rtc_init.h	/^	vk_thread_t *sleepThread;$/;"	m	struct:sleep_Q
+sleep_Q	include/rtc_init.h	/^typedef struct sleep_Q {$/;"	s
+sleep_thread	include/thread.h	/^	vk_thread_t *sleep_thread;$/;"	m	struct:thread_join_struct
+spsr	include/recoplay.h	/^	unsigned int spsr;$/;"	m	struct:finger
+ssize_t	include/linux/types.h	/^typedef __kernel_ssize_t	ssize_t;$/;"	t
+stack	include/thread.h	/^	unsigned int *stack;$/;"	m	struct:vk_thread
+startn	hal/cpu/HAL_arch_startup.S	/^	startn:	.long 0x00000000	\/\/ start address(offset) is 0$/;"	l
+state	include/thread.h	/^	unsigned int state;	$/;"	m	struct:vk_thread
+stub_sem_holder	include/semaphore.h	/^	vk_kcall_sem_t stub_sem_holder[3];$/;"	m	struct:Semaphore
+stub_signal_waiter	include/pthread.h	/^	unsigned char stub_signal_waiter;$/;"	m	struct:kcall_condition_variable
+stub_wait_thread	include/semaphore.h	/^	vk_kcall_sem_t stub_wait_thread[3];$/;"	m	struct:Semaphore
+suseconds_t	include/linux/types.h	/^typedef __kernel_suseconds_t	suseconds_t;$/;"	t
+swi_number	include/thread.h	/^	unsigned int swi_number;$/;"	m	struct:vk_thread
+tblIn	include/message_queue.h	/^	int tblIn;$/;"	m	struct:mq_tbl
+tblOut	include/message_queue.h	/^	int tblOut;$/;"	m	struct:mq_tbl
+tbl_flag	include/message_queue.h	/^	int tbl_flag;$/;"	m	struct:mq_tbl
+tcb_bottom	include/thread.h	/^	unsigned int *tcb_bottom;$/;"	m	struct:vk_thread
+thread	include/thread.h	/^	vk_thread_t *thread;$/;"	m	struct:vk_pthread
+thread	shell/vpsh.c	/^void *thread(void *arg)$/;"	f
+thread2	shell/vpsh.c	/^void *thread2(void *arg)$/;"	f
+thread3	shell/vpsh.c	/^void *thread3(void *arg)$/;"	f
+thread4	shell/vpsh.c	/^void *thread4(void *arg)$/;"	f
+thread_id	include/message_queue.h	/^	unsigned char thread_id;$/;"	m	struct:mq
+thread_id	include/pthread.h	/^	unsigned char thread_id;$/;"	m	struct:kcall_mutex
+thread_id	include/semaphore.h	/^	unsigned char thread_id;$/;"	m	struct:kcall_sem
+thread_id	include/thread.h	/^	unsigned int thread_id;$/;"	m	struct:vk_thread
+thread_join_struct	include/thread.h	/^typedef struct thread_join_struct{$/;"	s
+thread_num	include/pthread.h	/^	unsigned int thread_num;$/;"	m	struct:barrier
+thread_prio	include/message_queue.h	/^	unsigned char thread_prio;$/;"	m	struct:mq
+time_t	include/linux/types.h	/^typedef __kernel_time_t		time_t;$/;"	t
+tm	include/rtc_init.h	/^typedef struct tm {$/;"	s
+tm_hour	include/rtc_init.h	/^	int tm_hour;$/;"	m	struct:tm
+tm_mday	include/rtc_init.h	/^	int tm_mday;$/;"	m	struct:tm
+tm_min	include/rtc_init.h	/^	int tm_min;$/;"	m	struct:tm
+tm_mon	include/rtc_init.h	/^	int tm_mon;$/;"	m	struct:tm
+tm_sec	include/rtc_init.h	/^	int tm_sec;$/;"	m	struct:tm
+tm_weekday	include/rtc_init.h	/^	int tm_weekday;$/;"	m	struct:tm
+tm_year	include/rtc_init.h	/^	int tm_year;$/;"	m	struct:tm
+toascii	include/linux/ctype.h	35;"	d
+tolower	include/linux/ctype.h	51;"	d
+top_line	include/version.h	/^char *top_line      = "\\n*********************************************************************************";$/;"	v
+toupper	include/linux/ctype.h	52;"	d
+tstc	hal/io/serial.c	/^int tstc()$/;"	f
+u16	include/linux/asm/types.h	/^typedef unsigned short u16;$/;"	t
+u32	include/linux/asm/types.h	/^typedef unsigned int u32;$/;"	t
+u64	include/linux/asm/types.h	/^typedef unsigned long long u64;$/;"	t
+u8	include/linux/asm/types.h	/^typedef unsigned char u8;$/;"	t
+u_char	include/linux/types.h	/^typedef unsigned char		u_char;$/;"	t
+u_int	include/linux/types.h	/^typedef unsigned int		u_int;$/;"	t
+u_int16_t	include/linux/types.h	/^typedef		__u16		u_int16_t;$/;"	t
+u_int32_t	include/linux/types.h	/^typedef		__u32		u_int32_t;$/;"	t
+u_int64_t	include/linux/types.h	/^typedef		__u64		u_int64_t;$/;"	t
+u_int8_t	include/linux/types.h	/^typedef		__u8		u_int8_t;$/;"	t
+u_long	include/linux/types.h	/^typedef unsigned long		u_long;$/;"	t
+u_short	include/linux/types.h	/^typedef unsigned short		u_short;$/;"	t
+udelay	include/linux/delay.h	/^extern void udelay(int usecs)$/;"	f
+uid16_t	include/linux/types.h	/^typedef __kernel_uid16_t        uid16_t;$/;"	t
+uid_t	include/linux/types.h	/^typedef __kernel_uid32_t	uid_t;$/;"	t
+uid_t	include/linux/types.h	/^typedef __kernel_uid_t		uid_t;$/;"	t
+uint	include/linux/types.h	/^typedef unsigned int		uint;$/;"	t
+uint16_t	include/linux/types.h	/^typedef		__u16		uint16_t;$/;"	t
+uint32_t	include/linux/types.h	/^typedef		__u32		uint32_t;$/;"	t
+uint64_t	include/linux/types.h	/^typedef		__u64		uint64_t;$/;"	t
+uint8_t	include/linux/types.h	/^typedef		__u8		uint8_t;$/;"	t
+ulong	include/linux/types.h	/^typedef unsigned long		ulong;$/;"	t
+umode_t	include/linux/asm/types.h	/^typedef unsigned short umode_t;$/;"	t
+unchar	include/linux/types.h	/^typedef unsigned char		unchar;$/;"	t
+undefined	include/pthread.h	/^	void *undefined;$/;"	m	struct:barrier_attr
+undefined	include/pthread.h	/^	void *undefined;$/;"	m	struct:cond_attr
+undefined	include/pthread.h	/^	void *undefined;$/;"	m	struct:mutexattr
+ushort	include/linux/types.h	/^typedef unsigned short		ushort;$/;"	t
+ustat	include/linux/types.h	/^struct ustat {$/;"	s
+va_arg	include/stdarg.h	8;"	d
+va_end	include/stdarg.h	9;"	d
+va_list	include/stdarg.h	/^typedef char *va_list;$/;"	t
+va_start	include/stdarg.h	7;"	d
+val	include/linux/asm/posix_types.h	/^	int	val[2];$/;"	m	struct:__anon3
+version	include/version.h	/^char *version       = "*  QURIX version 3.0    xx\/10\/2012                                              *";$/;"	v
+vh_CLK_CTL_BASE	hal/include/vh_cpu_hal.h	26;"	d
+vh_Disable_Interrupt	hal/include/vh_cpu_hal.h	10;"	d
+vh_GPA0CON	hal/include/vh_io_hal.h	16;"	d
+vh_GPA0PUD	hal/include/vh_io_hal.h	17;"	d
+vh_INT_CTL_BASE	hal/include/vh_cpu_hal.h	11;"	d
+vh_Interrupt_All_Disable	hal/include/vh_cpu_hal.h	41;"	d
+vh_LedInit	hal/io/led.c	/^void vh_LedInit(void)$/;"	f
+vh_LedOff	hal/io/led.c	/^void vh_LedOff(unsigned char data)$/;"	f
+vh_LedOn	hal/io/led.c	/^void vh_LedOn(unsigned char data)$/;"	f
+vh_LedSet	hal/io/led.c	/^void vh_LedSet(unsigned char data)$/;"	f
+vh_MDIV_200	hal/include/vh_cpu_hal.h	20;"	d
+vh_MDIV_50	hal/include/vh_cpu_hal.h	17;"	d
+vh_MEM_CTL_BASE	hal/include/vh_cpu_hal.h	70;"	d
+vh_PDIV_200	hal/include/vh_cpu_hal.h	21;"	d
+vh_PDIV_50	hal/include/vh_cpu_hal.h	18;"	d
+vh_SDIV_200	hal/include/vh_cpu_hal.h	22;"	d
+vh_SDIV_50	hal/include/vh_cpu_hal.h	19;"	d
+vh_SDRAM_BASE	hal/include/vh_cpu_hal.h	85;"	d
+vh_SDRAM_Remapped_data_abort	hal/include/vh_cpu_hal.h	90;"	d
+vh_SDRAM_Remapped_fiq	hal/include/vh_cpu_hal.h	93;"	d
+vh_SDRAM_Remapped_irq	hal/include/vh_cpu_hal.h	92;"	d
+vh_SDRAM_Remapped_not_used	hal/include/vh_cpu_hal.h	91;"	d
+vh_SDRAM_Remapped_prefetch_abort	hal/include/vh_cpu_hal.h	89;"	d
+vh_SDRAM_Remapped_reset	hal/include/vh_cpu_hal.h	86;"	d
+vh_SDRAM_Remapped_swi	hal/include/vh_cpu_hal.h	88;"	d
+vh_SDRAM_Remapped_undef	hal/include/vh_cpu_hal.h	87;"	d
+vh_SERIAL_CHAR_READY	hal/include/vh_io_hal.h	70;"	d
+vh_SERIAL_PUTC	hal/include/vh_io_hal.h	67;"	d
+vh_SERIAL_READ_CHAR	hal/include/vh_io_hal.h	72;"	d
+vh_SERIAL_READ_STATUS	hal/include/vh_io_hal.h	78;"	d
+vh_SERIAL_WRITE_CHAR	hal/include/vh_io_hal.h	66;"	d
+vh_SERIAL_WRITE_READY	hal/include/vh_io_hal.h	64;"	d
+vh_TIMER1	include/timer.h	8;"	d
+vh_TIMER4	include/timer.h	7;"	d
+vh_UART_BAUD_RATE	hal/include/vh_io_hal.h	51;"	d
+vh_UART_BRD	hal/include/vh_io_hal.h	53;"	d
+vh_UART_CTL_BASE	hal/include/vh_io_hal.h	34;"	d
+vh_UART_ERR_MASK	hal/include/vh_io_hal.h	83;"	d
+vh_UBRDIV	hal/include/vh_io_hal.h	40;"	d
+vh_UCON	hal/include/vh_io_hal.h	37;"	d
+vh_UERSTAT0	hal/include/vh_io_hal.h	77;"	d
+vh_UERSTAT1	hal/include/vh_io_hal.h	45;"	d
+vh_UFCON	hal/include/vh_io_hal.h	38;"	d
+vh_UFSTAT1	hal/include/vh_io_hal.h	46;"	d
+vh_UINTM1	hal/include/vh_io_hal.h	43;"	d
+vh_UINTP1	hal/include/vh_io_hal.h	41;"	d
+vh_UINTSP1	hal/include/vh_io_hal.h	42;"	d
+vh_ULCON	hal/include/vh_io_hal.h	36;"	d
+vh_UMCON	hal/include/vh_io_hal.h	39;"	d
+vh_UMSTAT1	hal/include/vh_io_hal.h	48;"	d
+vh_URXH1	hal/include/vh_io_hal.h	47;"	d
+vh_UTRSTAT1	hal/include/vh_io_hal.h	44;"	d
+vh_UTRSTAT_RX_READY	hal/include/vh_io_hal.h	61;"	d
+vh_UTRSTAT_TX_EMPTY	hal/include/vh_io_hal.h	60;"	d
+vh_UTXH0	hal/include/vh_io_hal.h	79;"	d
+vh_UTXH1	hal/include/vh_io_hal.h	65;"	d
+vh_VIC_TIMER4	hal/include/vh_io_hal.h	10;"	d
+vh_VIC_TIMER4_bit	hal/include/vh_io_hal.h	11;"	d
+vh_VIC_UART1	hal/include/vh_io_hal.h	7;"	d
+vh_VIC_UART1_bit	hal/include/vh_io_hal.h	8;"	d
+vh_VPOS_BASE	hal/include/vh_cpu_hal.h	97;"	d
+vh_VPOS_BIN_SIZE	hal/include/vh_cpu_hal.h	95;"	d
+vh_VPOS_FLASH_BASE	hal/include/vh_cpu_hal.h	96;"	d
+vh_VPOS_STARTUP	hal/cpu/HAL_arch_startup.S	/^vh_VPOS_STARTUP:$/;"	l
+vh_VPOS_reset	hal/cpu/HAL_arch_startup.S	/^vh_VPOS_reset:$/;"	l
+vh_WTCON	hal/include/vh_cpu_hal.h	8;"	d
+vh_WT_Disable	hal/include/vh_cpu_hal.h	9;"	d
+vh_bUART	hal/include/vh_io_hal.h	85;"	d
+vh_bUARTb	hal/include/vh_io_hal.h	86;"	d
+vh_change_ctx	hal/cpu/HAL_arch_startup.S	/^vh_change_ctx:$/;"	l
+vh_disable_interrupt	hal/cpu/hal_swi_handler.c	/^void vh_disable_interrupt(vk_thread_t* thread)$/;"	f
+vh_enable_interrupt	hal/cpu/hal_swi_handler.c	/^void vh_enable_interrupt(vk_thread_t* thread)$/;"	f
+vh_entering_swi	hal/cpu/HAL_arch_startup.S	/^vh_entering_swi:$/;"	l
+vh_heap_size	include/size.h	6;"	d
+vh_hwi_classifier	hal/variant/hal_hwi_handler.c	/^void vh_hwi_classifier(void)$/;"	f
+vh_interrupt_mask	hal/variant/hal_hwi_handler.c	/^void vh_interrupt_mask(int mask_irq_number)$/;"	f
+vh_interrupt_unmask	hal/variant/hal_hwi_handler.c	/^void vh_interrupt_unmask(int unmask_irq_number)$/;"	f
+vh_irq	hal/cpu/HAL_arch_startup.S	/^vh_irq:	$/;"	l
+vh_irq_VIC0	hal/cpu/HAL_arch_startup.S	/^vh_irq_VIC0:$/;"	l
+vh_irq_VIC1	hal/cpu/HAL_arch_startup.S	/^vh_irq_VIC1:$/;"	l
+vh_leaving_pabort	hal/cpu/HAL_arch_startup.S	/^vh_leaving_pabort:$/;"	l
+vh_leaving_swi	hal/cpu/HAL_arch_startup.S	/^vh_leaving_swi:$/;"	l
+vh_oCLKDIVN	hal/include/vh_cpu_hal.h	12;"	d
+vh_oCLKDIVN	hal/include/vh_cpu_hal.h	44;"	d
+vh_oINTMSK	hal/include/vh_cpu_hal.h	43;"	d
+vh_oINTSUBMSK	hal/include/vh_cpu_hal.h	45;"	d
+vh_oMPLLCON	hal/include/vh_cpu_hal.h	13;"	d
+vh_oUERSTAT	hal/include/vh_io_hal.h	75;"	d
+vh_oURXH	hal/include/vh_io_hal.h	58;"	d
+vh_oURXHL	hal/include/vh_io_hal.h	76;"	d
+vh_oUTRSTAT	hal/include/vh_io_hal.h	56;"	d
+vh_oUTXH	hal/include/vh_io_hal.h	57;"	d
+vh_pabort	hal/cpu/HAL_arch_startup.S	/^vh_pabort:	$/;"	l
+vh_rINTMSK	hal/include/vh_cpu_hal.h	33;"	d
+vh_rINTOFFSET	hal/include/vh_cpu_hal.h	34;"	d
+vh_rINTPND	hal/include/vh_cpu_hal.h	35;"	d
+vh_rINTSUBMSK	hal/include/vh_cpu_hal.h	37;"	d
+vh_rNFADDR	hal/include/vh_io_hal.h	96;"	d
+vh_rNFCMD	hal/include/vh_io_hal.h	95;"	d
+vh_rNFCONF	hal/include/vh_io_hal.h	94;"	d
+vh_rNFDATA	hal/include/vh_io_hal.h	97;"	d
+vh_rNFECC	hal/include/vh_io_hal.h	99;"	d
+vh_rNFECC0	hal/include/vh_io_hal.h	100;"	d
+vh_rNFECC1	hal/include/vh_io_hal.h	101;"	d
+vh_rNFECC2	hal/include/vh_io_hal.h	102;"	d
+vh_rNFSTAT	hal/include/vh_io_hal.h	98;"	d
+vh_rSRCPND	hal/include/vh_cpu_hal.h	32;"	d
+vh_rSUBSRCPND	hal/include/vh_cpu_hal.h	36;"	d
+vh_restore_thread_ctx	hal/cpu/HAL_arch_startup.S	/^vh_restore_thread_ctx:$/;"	l
+vh_save_ctx_bottom	hal/cpu/HAL_arch_startup.S	/^vh_save_ctx_bottom:$/;"	l
+vh_save_thread_ctx	hal/cpu/HAL_arch_startup.S	/^vh_save_thread_ctx:$/;"	l
+vh_serial_init	hal/io/serial.c	/^void vh_serial_init(void)$/;"	f
+vh_serial_interrupt_handler	hal/io/serial.c	/^void vh_serial_interrupt_handler(void)$/;"	f
+vh_serial_irq_enable	hal/io/serial.c	/^void vh_serial_irq_enable(void)$/;"	f
+vh_software_interrupt	hal/cpu/HAL_arch_startup.S	/^vh_software_interrupt:$/;"	l
+vh_svc_int_enable	hal/cpu/HAL_arch_startup.S	/^vh_svc_int_enable:$/;"	l
+vh_swi	hal/cpu/hal_swi_handler.c	/^void vh_swi(unsigned thread)$/;"	f
+vh_thread_stack_size	include/size.h	5;"	d
+vh_timer_init	hal/io/timer.c	/^void vh_timer_init(void)$/;"	f
+vh_timer_interrupt_handler	hal/io/timer.c	/^void vh_timer_interrupt_handler(void)$/;"	f
+vh_timer_irq_enable	hal/io/timer.c	/^void vh_timer_irq_enable(int timer)$/;"	f
+vh_user_mode	include/thread.h	/^int vh_user_mode;$/;"	v
+vh_user_mode	include/thread.h	12;"	d
+vh_vBANKCON0	hal/include/vh_cpu_hal.h	72;"	d
+vh_vBANKCON1	hal/include/vh_cpu_hal.h	73;"	d
+vh_vBANKCON2	hal/include/vh_cpu_hal.h	74;"	d
+vh_vBANKCON3	hal/include/vh_cpu_hal.h	75;"	d
+vh_vBANKCON4	hal/include/vh_cpu_hal.h	76;"	d
+vh_vBANKCON5	hal/include/vh_cpu_hal.h	77;"	d
+vh_vBANKCON6	hal/include/vh_cpu_hal.h	78;"	d
+vh_vBANKCON7	hal/include/vh_cpu_hal.h	79;"	d
+vh_vBANKSIZE	hal/include/vh_cpu_hal.h	81;"	d
+vh_vBWSCON	hal/include/vh_cpu_hal.h	71;"	d
+vh_vCLKCON	hal/include/vh_cpu_hal.h	15;"	d
+vh_vCLKDIVN	hal/include/vh_cpu_hal.h	16;"	d
+vh_vLOCKTIME	hal/include/vh_cpu_hal.h	14;"	d
+vh_vMPLLCON_200	hal/include/vh_cpu_hal.h	24;"	d
+vh_vMPLLCON_50	hal/include/vh_cpu_hal.h	23;"	d
+vh_vMRSRB6	hal/include/vh_cpu_hal.h	82;"	d
+vh_vMRSRB7	hal/include/vh_cpu_hal.h	83;"	d
+vh_vREFRESH	hal/include/vh_cpu_hal.h	80;"	d
+vh_vSERIAL_CON	hal/include/vh_io_hal.h	31;"	d
+vh_vSERIAL_PUD	hal/include/vh_io_hal.h	32;"	d
+vh_vUCON	hal/include/vh_io_hal.h	50;"	d
+vh_vUFCON	hal/include/vh_io_hal.h	81;"	d
+vh_vULCON	hal/include/vh_io_hal.h	49;"	d
+vh_vUMCON	hal/include/vh_io_hal.h	82;"	d
+vh_vector_start	hal/cpu/HAL_arch_startup.S	/^vh_vector_start:$/;"	l
+vk_REGb	hal/include/vh_variant_hal.h	2;"	d
+vk_REGl	hal/include/vh_variant_hal.h	1;"	d
+vk_Thread_Queue	include/queue.h	/^typedef struct vk_Thread_Queue{$/;"	s
+vk_barrier_t	include/pthread.h	/^} vk_barrier_t;$/;"	t	typeref:struct:barrier
+vk_cond_t	include/pthread.h	/^} vk_cond_t;$/;"	t	typeref:struct:condition_variable
+vk_dabort	hal/cpu/HAL_arch_startup.S	/^vk_dabort:$/;"	l
+vk_dabort_handler	kernel/exception_handler.c	/^void vk_dabort_handler(void)$/;"	f
+vk_dd_table	include/dd.h	/^vk_ddrs_t vk_dd_table[55];$/;"	v
+vk_ddrs_t	include/dd.h	/^} vk_ddrs_t;$/;"	t	typeref:struct:vk_device_driver_register_strcut
+vk_device_driver_register_strcut	include/dd.h	/^typedef struct vk_device_driver_register_strcut{$/;"	s
+vk_disable_interrupt	hal/cpu/hal_swi_handler.c	/^void vk_disable_interrupt(void)$/;"	f
+vk_enable_interrupt	hal/cpu/hal_swi_handler.c	/^void vk_enable_interrupt(void)$/;"	f
+vk_error_addr	hal/cpu/HAL_arch_startup.S	/^vk_error_addr:$/;"	l
+vk_file_operations_t	include/dd.h	/^} vk_file_operations_t;$/;"	t	typeref:struct:file_operations
+vk_fiq_handler	kernel/exception_handler.c	/^void vk_fiq_handler(void)$/;"	f
+vk_hwi_count	include/recoplay.h	/^unsigned int vk_hwi_count;$/;"	v
+vk_idt_table	include/dd.h	/^unsigned int vk_idt_table[160];$/;"	v
+vk_interrupt	include/dd.h	/^	int (*vk_interrupt)(void);$/;"	m	struct:file_operations
+vk_ioctl	include/dd.h	/^	int (*vk_ioctl)(int fd, unsigned int cmd, unsigned long arg);$/;"	m	struct:file_operations
+vk_item	include/thread.h	/^struct vk_item{$/;"	s
+vk_kcall_cond_t	include/pthread.h	/^} vk_kcall_cond_t;$/;"	t	typeref:struct:kcall_condition_variable
+vk_kcall_mutex_t	include/pthread.h	/^} vk_kcall_mutex_t;$/;"	t	typeref:struct:kcall_mutex
+vk_kcall_sem_t	include/semaphore.h	/^} vk_kcall_sem_t;$/;"	t	typeref:struct:kcall_sem
+vk_machine_init	kernel/machine_init.c	/^void vk_machine_init(void)$/;"	f
+vk_master_barrier_q	include/pthread.h	/^pthread_barrier_t vk_master_barrier_q[BARRIER_SIZE];$/;"	v
+vk_master_cond_mutex	include/pthread.h	/^pthread_mutex_t vk_master_cond_mutex;$/;"	v
+vk_master_cond_variable_q	include/pthread.h	/^pthread_cond_t vk_master_cond_variable_q[COND_VARIABLE_SIZE];$/;"	v
+vk_master_getattr	include/message_queue.h	/^vk_mq_attr_t vk_master_getattr;$/;"	v
+vk_master_mq_attr	include/message_queue.h	/^vk_mq_attr_t vk_master_mq_attr[MQ_SIZE];$/;"	v
+vk_master_msgQtbl	include/message_queue.h	/^vk_mqtbl_t vk_master_msgQtbl[MQ_SIZE];$/;"	v
+vk_master_msgQueue	include/message_queue.h	/^vk_mq_t vk_master_msgQueue[MQ_SIZE][MAXTBLSIZE];$/;"	v
+vk_master_mutex_q	include/pthread.h	/^pthread_mutex_t	vk_master_mutex_q[MUTEX_SIZE];$/;"	v
+vk_master_sem_q	include/semaphore.h	/^sem_t vk_master_sem_q[SEM_SIZE];$/;"	v
+vk_mq_attr_t	include/message_queue.h	/^}vk_mq_attr_t;$/;"	t	typeref:struct:mq_attr
+vk_mq_t	include/message_queue.h	/^}vk_mq_t;$/;"	t	typeref:struct:mq
+vk_mqtbl_t	include/message_queue.h	/^}vk_mqtbl_t;$/;"	t	typeref:struct:mq_tbl
+vk_mutex_t	include/pthread.h	/^} vk_mutex_t;$/;"	t	typeref:struct:Mutex
+vk_not_used_handler	kernel/exception_handler.c	/^void vk_not_used_handler(void)$/;"	f
+vk_open	include/dd.h	/^	int (*vk_open)(char *file_name);$/;"	m	struct:file_operations
+vk_pabort_handler	kernel/exception_handler.c	/^void vk_pabort_handler(void)$/;"	f
+vk_pthread	include/thread.h	/^typedef struct vk_pthread{$/;"	s
+vk_read	include/dd.h	/^	int (*vk_read)(int fd, char *buf, size_t count);$/;"	m	struct:file_operations
+vk_ready_queue	include/queue.h	/^vk_threadq_t vk_ready_queue[32];$/;"	v
+vk_release	include/dd.h	/^	int (*vk_release)(int fd);$/;"	m	struct:file_operations
+vk_restore_flag	include/scheduler.h	/^unsigned char vk_restore_flag;$/;"	v
+vk_restore_thread_ctx	hal/cpu/hal_swi_handler.c	/^void vk_restore_thread_ctx(vk_thread_t *thread)$/;"	f
+vk_save_irq_current_tcb_bottom	hal/cpu/HAL_arch_startup.S	/^vk_save_irq_current_tcb_bottom:$/;"	l
+vk_save_irq_mode_stack_ptr	hal/cpu/HAL_arch_startup.S	/^vk_save_irq_mode_stack_ptr:	$/;"	l
+vk_save_pabort_current_tcb_bottom	hal/cpu/HAL_arch_startup.S	/^vk_save_pabort_current_tcb_bottom:$/;"	l
+vk_save_pabort_stack_ptr	hal/cpu/HAL_arch_startup.S	/^vk_save_pabort_stack_ptr:	$/;"	l
+vk_save_swi_current_tcb_bottom	hal/cpu/HAL_arch_startup.S	/^vk_save_swi_current_tcb_bottom:$/;"	l
+vk_save_swi_mode_stack_ptr	hal/cpu/HAL_arch_startup.S	/^vk_save_swi_mode_stack_ptr:	$/;"	l
+vk_save_thread_ctx	hal/cpu/hal_swi_handler.c	/^void vk_save_thread_ctx(vk_thread_t *thread)$/;"	f
+vk_sched_current_thread	include/scheduler.h	/^vk_thread_t* vk_sched_current_thread;$/;"	v
+vk_sched_save_tcb_ptr	include/scheduler.h	/^unsigned int vk_sched_save_tcb_ptr;$/;"	v
+vk_sem_t	include/semaphore.h	/^} vk_sem_t;$/;"	t	typeref:struct:Semaphore
+vk_serial_push	hal/io/serial.c	/^void vk_serial_push(void)$/;"	f
+vk_sleep_queue	include/rtc_init.h	/^vk_sleep_queue_t vk_sleep_queue[max_sleepQ_buf];$/;"	v
+vk_sleep_queue_t	include/rtc_init.h	/^}vk_sleep_queue_t;$/;"	t	typeref:struct:sleep_Q
+vk_swi_classifier	hal/cpu/hal_swi_handler.c	/^void vk_swi_classifier(unsigned thread)$/;"	f
+vk_swi_scheduler	hal/cpu/hal_swi_handler.c	/^void vk_swi_scheduler(void)$/;"	f
+vk_swi_vector_type	include/swi_handler.h	/^enum vk_swi_vector_type {EI=40, DI=41, SC=42, RC=43, CS=44, SW=1911};$/;"	g
+vk_tcb_log_queue	include/queue.h	/^vk_threadq_t vk_tcb_log_queue[32];		$/;"	v
+vk_thread	include/thread.h	/^typedef struct vk_thread{$/;"	s
+vk_thread_join_struct	include/thread.h	/^} vk_thread_join_struct;	$/;"	t	typeref:struct:thread_join_struct
+vk_thread_join_table	include/thread.h	/^vk_thread_join_struct vk_thread_join_table[10];$/;"	v
+vk_thread_state	include/thread.h	/^enum vk_thread_state {RUNNING, READY, SLEEP, ZOMBI, INIT};$/;"	g
+vk_thread_t	include/thread.h	/^} vk_thread_t;$/;"	t	typeref:struct:vk_thread
+vk_threadq_t	include/queue.h	/^} vk_threadq_t;$/;"	t	typeref:struct:vk_Thread_Queue
+vk_time_t	include/rtc_init.h	/^}vk_time_t;$/;"	t	typeref:struct:tm
+vk_timer_flag	include/timer.h	/^unsigned int vk_timer_flag;$/;"	v
+vk_timer_irq_disable	hal/io/timer.c	/^void vk_timer_irq_disable(void)$/;"	f
+vk_timer_irq_enable	hal/io/timer.c	/^void vk_timer_irq_enable(void)$/;"	f
+vk_timer_save_stk	include/timer.h	/^unsigned int vk_timer_save_stk[17];$/;"	v
+vk_undef	hal/cpu/HAL_arch_startup.S	/^vk_undef:$/;"	l
+vk_undef_handler	kernel/exception_handler.c	/^void vk_undef_handler(void)$/;"	f
+vk_wait_queue	include/queue.h	/^vk_threadq_t vk_wait_queue[32];$/;"	v
+vk_write	include/dd.h	/^	int (*vk_write)(int fd, char *buf, size_t count);$/;"	m	struct:file_operations
+vr_bkpt_expt_cnt	include/recoplay.h	/^unsigned int vr_bkpt_expt_cnt;$/;"	v
+vr_data_ptr	include/recoplay.h	/^unsigned int *vr_data_ptr;$/;"	v
+vr_fail_cnt	include/recoplay.h	/^unsigned int vr_fail_cnt;$/;"	v
+vr_ic_int_cnt	include/recoplay.h	/^unsigned int vr_ic_int_cnt;$/;"	v
+vr_log	include/recoplay.h	/^typedef struct vr_log {	$/;"	s
+vr_log_t	include/recoplay.h	/^} vr_log_t;$/;"	t	typeref:struct:vr_log
+vr_miss_break	include/debug.h	/^unsigned char vr_miss_break;$/;"	v
+vr_read_time	include/timer.h	33;"	d
+vr_read_time1	include/timer.h	45;"	d
+vr_read_time4	include/timer.h	22;"	d
+vr_reg_fail_cnt	include/recoplay.h	/^unsigned int vr_reg_fail_cnt[15];$/;"	v
+vr_replay_count	include/recoplay.h	/^unsigned int vr_replay_count;	\/\/ instruction counter for reproducing$/;"	v
+vr_replay_end_flag	include/recoplay.h	/^unsigned char vr_replay_end_flag;$/;"	v
+vr_save_thread_ctx	hal/cpu/HAL_arch_startup.S	/^vr_save_thread_ctx:$/;"	l
+vr_timer1_reset	include/timer.h	50;"	d
+vr_timer1_start	include/timer.h	46;"	d
+vr_timer1_stop	include/timer.h	49;"	d
+vr_timer4_reset	include/timer.h	27;"	d
+vr_timer4_start	include/timer.h	23;"	d
+vr_timer4_stop	include/timer.h	26;"	d
+vr_timer_reset	include/timer.h	38;"	d
+vr_timer_start	include/timer.h	34;"	d
+vr_timer_stop	include/timer.h	37;"	d
+vt_read	hal/cpu/HAL_arch_startup.S	/^vt_read:$/;"	l
+vt_read_sp	hal/cpu/HAL_arch_startup.S	/^vt_read_sp:	$/;"	l
+vu_debug	shell/vpsh.c	/^void *vu_debug(void *arg)$/;"	f
+vu_help	shell/vpsh.c	/^void *vu_help(void *arg)$/;"	f
+wait_barrier_thread	include/pthread.h	/^	unsigned char wait_barrier_thread[5];$/;"	m	struct:barrier
+wait_thread	include/pthread.h	/^	vk_thread_t *wait_thread[3];         $/;"	m	struct:Mutex
+wait_thread	include/semaphore.h	/^	vk_thread_t *wait_thread[3];         $/;"	m	struct:Semaphore
+waiter	include/pthread.h	/^	vk_thread_t *waiter[5];$/;"	m	struct:barrier
+waiter_thread_prio	include/pthread.h	/^	unsigned char waiter_thread_prio;$/;"	m	struct:kcall_condition_variable
+zombi_thread	include/thread.h	/^	vk_thread_t *zombi_thread;$/;"	m	struct:thread_join_struct

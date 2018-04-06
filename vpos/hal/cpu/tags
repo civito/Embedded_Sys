@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FALSE	hal_swi_handler.c	14;"	d	file:
+OBJS	Makefile	/^OBJS = HAL_arch_startup.o hal_swi_handler.o $/;"	m
+SRCS	Makefile	/^SRCS = HAL_arch_startup.S hal_swi_handler.c $/;"	m
+TRUE	hal_swi_handler.c	13;"	d	file:
+endn	HAL_arch_startup.S	/^	endn:	.long 0x0000d8fc	\/\/ end address(offset) is file size(byte)$/;"	l
+magicn	HAL_arch_startup.S	/^	magicn:	.long 0x016f2818	\/\/ Linux magic number$/;"	l
+startn	HAL_arch_startup.S	/^	startn:	.long 0x00000000	\/\/ start address(offset) is 0$/;"	l
+vh_VPOS_STARTUP	HAL_arch_startup.S	/^vh_VPOS_STARTUP:$/;"	l
+vh_VPOS_reset	HAL_arch_startup.S	/^vh_VPOS_reset:$/;"	l
+vh_change_ctx	HAL_arch_startup.S	/^vh_change_ctx:$/;"	l
+vh_disable_interrupt	hal_swi_handler.c	/^void vh_disable_interrupt(vk_thread_t* thread)$/;"	f
+vh_enable_interrupt	hal_swi_handler.c	/^void vh_enable_interrupt(vk_thread_t* thread)$/;"	f
+vh_entering_swi	HAL_arch_startup.S	/^vh_entering_swi:$/;"	l
+vh_irq	HAL_arch_startup.S	/^vh_irq:	$/;"	l
+vh_irq_VIC0	HAL_arch_startup.S	/^vh_irq_VIC0:$/;"	l
+vh_irq_VIC1	HAL_arch_startup.S	/^vh_irq_VIC1:$/;"	l
+vh_leaving_pabort	HAL_arch_startup.S	/^vh_leaving_pabort:$/;"	l
+vh_leaving_swi	HAL_arch_startup.S	/^vh_leaving_swi:$/;"	l
+vh_pabort	HAL_arch_startup.S	/^vh_pabort:	$/;"	l
+vh_restore_thread_ctx	HAL_arch_startup.S	/^vh_restore_thread_ctx:$/;"	l
+vh_save_ctx_bottom	HAL_arch_startup.S	/^vh_save_ctx_bottom:$/;"	l
+vh_save_thread_ctx	HAL_arch_startup.S	/^vh_save_thread_ctx:$/;"	l
+vh_software_interrupt	HAL_arch_startup.S	/^vh_software_interrupt:$/;"	l
+vh_svc_int_enable	HAL_arch_startup.S	/^vh_svc_int_enable:$/;"	l
+vh_swi	hal_swi_handler.c	/^void vh_swi(unsigned thread)$/;"	f
+vh_vector_start	HAL_arch_startup.S	/^vh_vector_start:$/;"	l
+vk_dabort	HAL_arch_startup.S	/^vk_dabort:$/;"	l
+vk_disable_interrupt	hal_swi_handler.c	/^void vk_disable_interrupt(void)$/;"	f
+vk_enable_interrupt	hal_swi_handler.c	/^void vk_enable_interrupt(void)$/;"	f
+vk_error_addr	HAL_arch_startup.S	/^vk_error_addr:$/;"	l
+vk_restore_thread_ctx	hal_swi_handler.c	/^void vk_restore_thread_ctx(vk_thread_t *thread)$/;"	f
+vk_save_irq_current_tcb_bottom	HAL_arch_startup.S	/^vk_save_irq_current_tcb_bottom:$/;"	l
+vk_save_irq_mode_stack_ptr	HAL_arch_startup.S	/^vk_save_irq_mode_stack_ptr:	$/;"	l
+vk_save_pabort_current_tcb_bottom	HAL_arch_startup.S	/^vk_save_pabort_current_tcb_bottom:$/;"	l
+vk_save_pabort_stack_ptr	HAL_arch_startup.S	/^vk_save_pabort_stack_ptr:	$/;"	l
+vk_save_swi_current_tcb_bottom	HAL_arch_startup.S	/^vk_save_swi_current_tcb_bottom:$/;"	l
+vk_save_swi_mode_stack_ptr	HAL_arch_startup.S	/^vk_save_swi_mode_stack_ptr:	$/;"	l
+vk_save_thread_ctx	hal_swi_handler.c	/^void vk_save_thread_ctx(vk_thread_t *thread)$/;"	f
+vk_swi_classifier	hal_swi_handler.c	/^void vk_swi_classifier(unsigned thread)$/;"	f
+vk_swi_scheduler	hal_swi_handler.c	/^void vk_swi_scheduler(void)$/;"	f
+vk_undef	HAL_arch_startup.S	/^vk_undef:$/;"	l
+vr_save_thread_ctx	HAL_arch_startup.S	/^vr_save_thread_ctx:$/;"	l
+vt_read	HAL_arch_startup.S	/^vt_read:$/;"	l
+vt_read_sp	HAL_arch_startup.S	/^vt_read_sp:	$/;"	l

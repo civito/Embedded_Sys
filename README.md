@@ -1,1 +1,1 @@
-# Embedded_Sys
+# Repository for Embedded Project
