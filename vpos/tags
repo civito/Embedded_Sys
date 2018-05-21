@@ -155,18 +155,18 @@ MsgOut	include/message_queue.h	/^	int MsgOut;$/;"	m	struct:mq
 MsgSize	include/message_queue.h	/^	int MsgSize;$/;"	m	struct:mq
 MsgSize	include/message_queue.h	/^	int MsgSize;$/;"	m	struct:mq_tbl
 Mutex	include/pthread.h	/^typedef struct Mutex{$/;"	s
-NAND_BASE	hal/include/vh_io_hal.h	92;"	d
-NAND_CTL_S3C_WAIT	hal/include/vh_io_hal.h	118;"	d
-NF_ADDR	hal/include/vh_io_hal.h	106;"	d
-NF_CLEAR_RB	hal/include/vh_io_hal.h	115;"	d
-NF_CMD	hal/include/vh_io_hal.h	105;"	d
-NF_DETECT_RB	hal/include/vh_io_hal.h	116;"	d
-NF_RDDATA	hal/include/vh_io_hal.h	110;"	d
-NF_RSTECC	hal/include/vh_io_hal.h	109;"	d
-NF_WAITRB	hal/include/vh_io_hal.h	112;"	d
-NF_WRDATA	hal/include/vh_io_hal.h	111;"	d
-NF_nFCE_H	hal/include/vh_io_hal.h	108;"	d
-NF_nFCE_L	hal/include/vh_io_hal.h	107;"	d
+NAND_BASE	hal/include/vh_io_hal.h	111;"	d
+NAND_CTL_S3C_WAIT	hal/include/vh_io_hal.h	137;"	d
+NF_ADDR	hal/include/vh_io_hal.h	125;"	d
+NF_CLEAR_RB	hal/include/vh_io_hal.h	134;"	d
+NF_CMD	hal/include/vh_io_hal.h	124;"	d
+NF_DETECT_RB	hal/include/vh_io_hal.h	135;"	d
+NF_RDDATA	hal/include/vh_io_hal.h	129;"	d
+NF_RSTECC	hal/include/vh_io_hal.h	128;"	d
+NF_WAITRB	hal/include/vh_io_hal.h	131;"	d
+NF_WRDATA	hal/include/vh_io_hal.h	130;"	d
+NF_nFCE_H	hal/include/vh_io_hal.h	127;"	d
+NF_nFCE_L	hal/include/vh_io_hal.h	126;"	d
 NO_INT	include/dd.h	6;"	d
 NULL	include/linux/stddef.h	4;"	d
 NULL	include/linux/stddef.h	6;"	d
@@ -237,9 +237,10 @@ SZ_8K	include/sizes.h	7;"	d
 SZ_8M	include/sizes.h	17;"	d
 Semaphore	include/semaphore.h	/^typedef struct Semaphore{$/;"	s
 TIMER1_COUNT	include/timer.h	44;"	d
+TIMER_test	kernel/kernel_start.c	/^void TIMER_test(void)$/;"	f
 TOPDIR	Makefile	/^TOPDIR	:= $(shell if [ "$$PWD" != "" ]; then echo $$PWD; else pwd; fi)$/;"	m
 TRUE	hal/cpu/hal_swi_handler.c	13;"	d	file:
-U8	hal/include/vh_io_hal.h	91;"	d
+U8	hal/include/vh_io_hal.h	110;"	d
 UBOOT_RESET	include/recoplay.h	15;"	d
 UIO_FASTIOV	include/linux/uio.h	29;"	d
 UIO_MAXIOV	include/linux/uio.h	30;"	d
@@ -657,8 +658,10 @@ val	include/linux/asm/posix_types.h	/^	int	val[2];$/;"	m	struct:__anon3
 version	include/version.h	/^char *version       = "*  QURIX version 3.0    xx\/10\/2012                                              *";$/;"	v
 vh_CLK_CTL_BASE	hal/include/vh_cpu_hal.h	26;"	d
 vh_Disable_Interrupt	hal/include/vh_cpu_hal.h	10;"	d
-vh_GPA0CON	hal/include/vh_io_hal.h	16;"	d
-vh_GPA0PUD	hal/include/vh_io_hal.h	17;"	d
+vh_GPA0CON	hal/include/vh_io_hal.h	29;"	d
+vh_GPA0PUD	hal/include/vh_io_hal.h	30;"	d
+vh_GPJ2CON	hal/include/vh_io_hal.h	32;"	d
+vh_GPJ2DAT	hal/include/vh_io_hal.h	33;"	d
 vh_INT_CTL_BASE	hal/include/vh_cpu_hal.h	11;"	d
 vh_Interrupt_All_Disable	hal/include/vh_cpu_hal.h	41;"	d
 vh_LedInit	hal/io/led.c	/^void vh_LedInit(void)$/;"	f
@@ -681,36 +684,52 @@ vh_SDRAM_Remapped_prefetch_abort	hal/include/vh_cpu_hal.h	89;"	d
 vh_SDRAM_Remapped_reset	hal/include/vh_cpu_hal.h	86;"	d
 vh_SDRAM_Remapped_swi	hal/include/vh_cpu_hal.h	88;"	d
 vh_SDRAM_Remapped_undef	hal/include/vh_cpu_hal.h	87;"	d
-vh_SERIAL_CHAR_READY	hal/include/vh_io_hal.h	70;"	d
-vh_SERIAL_PUTC	hal/include/vh_io_hal.h	67;"	d
-vh_SERIAL_READ_CHAR	hal/include/vh_io_hal.h	72;"	d
-vh_SERIAL_READ_STATUS	hal/include/vh_io_hal.h	78;"	d
-vh_SERIAL_WRITE_CHAR	hal/include/vh_io_hal.h	66;"	d
-vh_SERIAL_WRITE_READY	hal/include/vh_io_hal.h	64;"	d
+vh_SERIAL_CHAR_READY	hal/include/vh_io_hal.h	89;"	d
+vh_SERIAL_PUTC	hal/include/vh_io_hal.h	86;"	d
+vh_SERIAL_READ_CHAR	hal/include/vh_io_hal.h	91;"	d
+vh_SERIAL_READ_STATUS	hal/include/vh_io_hal.h	97;"	d
+vh_SERIAL_WRITE_CHAR	hal/include/vh_io_hal.h	85;"	d
+vh_SERIAL_WRITE_READY	hal/include/vh_io_hal.h	83;"	d
+vh_TCFG0	hal/include/vh_io_hal.h	39;"	d
+vh_TCFG1	hal/include/vh_io_hal.h	40;"	d
+vh_TCNTB4	hal/include/vh_io_hal.h	42;"	d
+vh_TCNTO4	hal/include/vh_io_hal.h	43;"	d
+vh_TCON	hal/include/vh_io_hal.h	41;"	d
 vh_TIMER1	include/timer.h	8;"	d
 vh_TIMER4	include/timer.h	7;"	d
-vh_UART_BAUD_RATE	hal/include/vh_io_hal.h	51;"	d
-vh_UART_BRD	hal/include/vh_io_hal.h	53;"	d
-vh_UART_CTL_BASE	hal/include/vh_io_hal.h	34;"	d
-vh_UART_ERR_MASK	hal/include/vh_io_hal.h	83;"	d
-vh_UBRDIV	hal/include/vh_io_hal.h	40;"	d
-vh_UCON	hal/include/vh_io_hal.h	37;"	d
-vh_UERSTAT0	hal/include/vh_io_hal.h	77;"	d
-vh_UERSTAT1	hal/include/vh_io_hal.h	45;"	d
-vh_UFCON	hal/include/vh_io_hal.h	38;"	d
-vh_UFSTAT1	hal/include/vh_io_hal.h	46;"	d
-vh_UINTM1	hal/include/vh_io_hal.h	43;"	d
-vh_UINTP1	hal/include/vh_io_hal.h	41;"	d
-vh_UINTSP1	hal/include/vh_io_hal.h	42;"	d
-vh_ULCON	hal/include/vh_io_hal.h	36;"	d
-vh_UMCON	hal/include/vh_io_hal.h	39;"	d
-vh_UMSTAT1	hal/include/vh_io_hal.h	48;"	d
-vh_URXH1	hal/include/vh_io_hal.h	47;"	d
-vh_UTRSTAT1	hal/include/vh_io_hal.h	44;"	d
-vh_UTRSTAT_RX_READY	hal/include/vh_io_hal.h	61;"	d
-vh_UTRSTAT_TX_EMPTY	hal/include/vh_io_hal.h	60;"	d
-vh_UTXH0	hal/include/vh_io_hal.h	79;"	d
-vh_UTXH1	hal/include/vh_io_hal.h	65;"	d
+vh_TINT_CSTAT	hal/include/vh_io_hal.h	44;"	d
+vh_UART_BAUD_RATE	hal/include/vh_io_hal.h	70;"	d
+vh_UART_BRD	hal/include/vh_io_hal.h	72;"	d
+vh_UART_CTL_BASE	hal/include/vh_io_hal.h	53;"	d
+vh_UART_ERR_MASK	hal/include/vh_io_hal.h	102;"	d
+vh_UBRDIV	hal/include/vh_io_hal.h	59;"	d
+vh_UCON	hal/include/vh_io_hal.h	56;"	d
+vh_UERSTAT0	hal/include/vh_io_hal.h	96;"	d
+vh_UERSTAT1	hal/include/vh_io_hal.h	64;"	d
+vh_UFCON	hal/include/vh_io_hal.h	57;"	d
+vh_UFSTAT1	hal/include/vh_io_hal.h	65;"	d
+vh_UINTM1	hal/include/vh_io_hal.h	62;"	d
+vh_UINTP1	hal/include/vh_io_hal.h	60;"	d
+vh_UINTSP1	hal/include/vh_io_hal.h	61;"	d
+vh_ULCON	hal/include/vh_io_hal.h	55;"	d
+vh_UMCON	hal/include/vh_io_hal.h	58;"	d
+vh_UMSTAT1	hal/include/vh_io_hal.h	67;"	d
+vh_URXH1	hal/include/vh_io_hal.h	66;"	d
+vh_UTRSTAT1	hal/include/vh_io_hal.h	63;"	d
+vh_UTRSTAT_RX_READY	hal/include/vh_io_hal.h	80;"	d
+vh_UTRSTAT_TX_EMPTY	hal/include/vh_io_hal.h	79;"	d
+vh_UTXH0	hal/include/vh_io_hal.h	98;"	d
+vh_UTXH1	hal/include/vh_io_hal.h	84;"	d
+vh_VIC0INTENABLE	hal/include/vh_io_hal.h	20;"	d
+vh_VIC0INTENCLEAR	hal/include/vh_io_hal.h	21;"	d
+vh_VIC0INTSELECT	hal/include/vh_io_hal.h	19;"	d
+vh_VIC0SWPRIORITYMASK	hal/include/vh_io_hal.h	22;"	d
+vh_VIC0VECTADDR25	hal/include/vh_io_hal.h	23;"	d
+vh_VIC1INTENABLE	hal/include/vh_io_hal.h	14;"	d
+vh_VIC1INTENCLEAR	hal/include/vh_io_hal.h	15;"	d
+vh_VIC1INTSELECT	hal/include/vh_io_hal.h	13;"	d
+vh_VIC1SWPRIORITYMASK	hal/include/vh_io_hal.h	16;"	d
+vh_VIC1VECTADDR11	hal/include/vh_io_hal.h	17;"	d
 vh_VIC_TIMER4	hal/include/vh_io_hal.h	10;"	d
 vh_VIC_TIMER4_bit	hal/include/vh_io_hal.h	11;"	d
 vh_VIC_UART1	hal/include/vh_io_hal.h	7;"	d
@@ -722,8 +741,8 @@ vh_VPOS_STARTUP	hal/cpu/HAL_arch_startup.S	/^vh_VPOS_STARTUP:$/;"	l
 vh_VPOS_reset	hal/cpu/HAL_arch_startup.S	/^vh_VPOS_reset:$/;"	l
 vh_WTCON	hal/include/vh_cpu_hal.h	8;"	d
 vh_WT_Disable	hal/include/vh_cpu_hal.h	9;"	d
-vh_bUART	hal/include/vh_io_hal.h	85;"	d
-vh_bUARTb	hal/include/vh_io_hal.h	86;"	d
+vh_bUART	hal/include/vh_io_hal.h	104;"	d
+vh_bUARTb	hal/include/vh_io_hal.h	105;"	d
 vh_change_ctx	hal/cpu/HAL_arch_startup.S	/^vh_change_ctx:$/;"	l
 vh_disable_interrupt	hal/cpu/hal_swi_handler.c	/^void vh_disable_interrupt(vk_thread_t* thread)$/;"	f
 vh_enable_interrupt	hal/cpu/hal_swi_handler.c	/^void vh_enable_interrupt(vk_thread_t* thread)$/;"	f
@@ -732,7 +751,7 @@ vh_heap_size	include/size.h	6;"	d
 vh_hwi_classifier	hal/variant/hal_hwi_handler.c	/^void vh_hwi_classifier(void)$/;"	f
 vh_interrupt_mask	hal/variant/hal_hwi_handler.c	/^void vh_interrupt_mask(int mask_irq_number)$/;"	f
 vh_interrupt_unmask	hal/variant/hal_hwi_handler.c	/^void vh_interrupt_unmask(int unmask_irq_number)$/;"	f
-vh_irq	hal/cpu/HAL_arch_startup.S	/^vh_irq:	$/;"	l
+vh_irq	hal/cpu/HAL_arch_startup.S	/^vh_irq:$/;"	l
 vh_irq_VIC0	hal/cpu/HAL_arch_startup.S	/^vh_irq_VIC0:$/;"	l
 vh_irq_VIC1	hal/cpu/HAL_arch_startup.S	/^vh_irq_VIC1:$/;"	l
 vh_leaving_pabort	hal/cpu/HAL_arch_startup.S	/^vh_leaving_pabort:$/;"	l
@@ -742,25 +761,25 @@ vh_oCLKDIVN	hal/include/vh_cpu_hal.h	44;"	d
 vh_oINTMSK	hal/include/vh_cpu_hal.h	43;"	d
 vh_oINTSUBMSK	hal/include/vh_cpu_hal.h	45;"	d
 vh_oMPLLCON	hal/include/vh_cpu_hal.h	13;"	d
-vh_oUERSTAT	hal/include/vh_io_hal.h	75;"	d
-vh_oURXH	hal/include/vh_io_hal.h	58;"	d
-vh_oURXHL	hal/include/vh_io_hal.h	76;"	d
-vh_oUTRSTAT	hal/include/vh_io_hal.h	56;"	d
-vh_oUTXH	hal/include/vh_io_hal.h	57;"	d
+vh_oUERSTAT	hal/include/vh_io_hal.h	94;"	d
+vh_oURXH	hal/include/vh_io_hal.h	77;"	d
+vh_oURXHL	hal/include/vh_io_hal.h	95;"	d
+vh_oUTRSTAT	hal/include/vh_io_hal.h	75;"	d
+vh_oUTXH	hal/include/vh_io_hal.h	76;"	d
 vh_pabort	hal/cpu/HAL_arch_startup.S	/^vh_pabort:	$/;"	l
 vh_rINTMSK	hal/include/vh_cpu_hal.h	33;"	d
 vh_rINTOFFSET	hal/include/vh_cpu_hal.h	34;"	d
 vh_rINTPND	hal/include/vh_cpu_hal.h	35;"	d
 vh_rINTSUBMSK	hal/include/vh_cpu_hal.h	37;"	d
-vh_rNFADDR	hal/include/vh_io_hal.h	96;"	d
-vh_rNFCMD	hal/include/vh_io_hal.h	95;"	d
-vh_rNFCONF	hal/include/vh_io_hal.h	94;"	d
-vh_rNFDATA	hal/include/vh_io_hal.h	97;"	d
-vh_rNFECC	hal/include/vh_io_hal.h	99;"	d
-vh_rNFECC0	hal/include/vh_io_hal.h	100;"	d
-vh_rNFECC1	hal/include/vh_io_hal.h	101;"	d
-vh_rNFECC2	hal/include/vh_io_hal.h	102;"	d
-vh_rNFSTAT	hal/include/vh_io_hal.h	98;"	d
+vh_rNFADDR	hal/include/vh_io_hal.h	115;"	d
+vh_rNFCMD	hal/include/vh_io_hal.h	114;"	d
+vh_rNFCONF	hal/include/vh_io_hal.h	113;"	d
+vh_rNFDATA	hal/include/vh_io_hal.h	116;"	d
+vh_rNFECC	hal/include/vh_io_hal.h	118;"	d
+vh_rNFECC0	hal/include/vh_io_hal.h	119;"	d
+vh_rNFECC1	hal/include/vh_io_hal.h	120;"	d
+vh_rNFECC2	hal/include/vh_io_hal.h	121;"	d
+vh_rNFSTAT	hal/include/vh_io_hal.h	117;"	d
 vh_rSRCPND	hal/include/vh_cpu_hal.h	32;"	d
 vh_rSUBSRCPND	hal/include/vh_cpu_hal.h	36;"	d
 vh_restore_thread_ctx	hal/cpu/HAL_arch_startup.S	/^vh_restore_thread_ctx:$/;"	l
@@ -796,12 +815,12 @@ vh_vMPLLCON_50	hal/include/vh_cpu_hal.h	23;"	d
 vh_vMRSRB6	hal/include/vh_cpu_hal.h	82;"	d
 vh_vMRSRB7	hal/include/vh_cpu_hal.h	83;"	d
 vh_vREFRESH	hal/include/vh_cpu_hal.h	80;"	d
-vh_vSERIAL_CON	hal/include/vh_io_hal.h	31;"	d
-vh_vSERIAL_PUD	hal/include/vh_io_hal.h	32;"	d
-vh_vUCON	hal/include/vh_io_hal.h	50;"	d
-vh_vUFCON	hal/include/vh_io_hal.h	81;"	d
-vh_vULCON	hal/include/vh_io_hal.h	49;"	d
-vh_vUMCON	hal/include/vh_io_hal.h	82;"	d
+vh_vSERIAL_CON	hal/include/vh_io_hal.h	50;"	d
+vh_vSERIAL_PUD	hal/include/vh_io_hal.h	51;"	d
+vh_vUCON	hal/include/vh_io_hal.h	69;"	d
+vh_vUFCON	hal/include/vh_io_hal.h	100;"	d
+vh_vULCON	hal/include/vh_io_hal.h	68;"	d
+vh_vUMCON	hal/include/vh_io_hal.h	101;"	d
 vh_vector_start	hal/cpu/HAL_arch_startup.S	/^vh_vector_start:$/;"	l
 vk_REGb	hal/include/vh_variant_hal.h	2;"	d
 vk_REGl	hal/include/vh_variant_hal.h	1;"	d

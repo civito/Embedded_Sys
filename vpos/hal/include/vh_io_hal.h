@@ -10,32 +10,51 @@
 #define vh_VIC_TIMER4	25
 #define vh_VIC_TIMER4_bit (1 << vh_VIC_TIMER4)
 
+#define vh_VIC1INTSELECT	(*(volatile unsigned *)0xe410000c)
+#define vh_VIC1INTENABLE	(*(volatile unsigned *)0xe4100010)
+#define vh_VIC1INTENCLEAR	(*(volatile unsigned *)0xe4100014)
+#define vh_VIC1SWPRIORITYMASK	(*(volatile unsigned *)0xe4100024)
+#define vh_VIC1VECTADDR11	(*(volatile unsigned *)0xe410012c)
+
+#define vh_VIC0INTSELECT        (*(volatile unsigned *)0xe400000c)
+#define vh_VIC0INTENABLE        (*(volatile unsigned *)0xe4000010)
+#define vh_VIC0INTENCLEAR       (*(volatile unsigned *)0xe4000014)
+#define vh_VIC0SWPRIORITYMASK   (*(volatile unsigned *)0xe4000024)
+#define vh_VIC0VECTADDR25       (*(volatile unsigned *)0xe4000164)
+ 
 /*******************************************************************
    	GPIO
  *******************************************************************/
+
 #define vh_GPA0CON		(*(volatile unsigned *)0xe0300000)
 #define vh_GPA0PUD		(*(volatile unsigned *)0xe0300008)
 
-
+#define vh_GPJ2CON		(*(volatile unsigned *)0xe0300240)
+#define vh_GPJ2DAT		(*(volatile unsigned *)0xe0300244)
 
 /*****************************************************************
    Timer address
  *****************************************************************/
 
-
+#define vh_TCFG0		(*(volatile unsigned *)0xea000000)
+#define vh_TCFG1		(*(volatile unsigned *)0xea000004)
+#define vh_TCON			(*(volatile unsigned *)0xea000008)
+#define vh_TCNTB4		(*(volatile unsigned *)0xea00003c)
+#define vh_TCNTO4		(*(volatile unsigned *)0xea000040)
+#define vh_TINT_CSTAT		(*(volatile unsigned *)0xea000044)
 
 /******************************************************************
   	UART address
  ******************************************************************/
 
-#define vh_vSERIAL_CON			0
-#define vh_vSERIAL_PUD			0
+#define vh_vSERIAL_CON			0x220000
+#define vh_vSERIAL_PUD			0xa00
 
-#define vh_UART_CTL_BASE 		0
+#define vh_UART_CTL_BASE 		0xec000000
 
-#define vh_ULCON	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0))	// Specifies line control
-#define vh_UCON	 			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0))	// Specifies control
-#define vh_UFCON	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0))	// Specifies FIFO control
+#define vh_ULCON	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0400))	// Specifies line control
+#define vh_UCON	 			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0404))	// Specifies control
+#define vh_UFCON	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0408))	// Specifies FIFO control
 #define vh_UMCON	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x040c))	// Specifies modem control
 #define vh_UBRDIV	 		(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0428))	// SPecifies baud rate divisor
 #define vh_UINTP1			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0430))
@@ -46,7 +65,7 @@
 #define vh_UFSTAT1			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0418))
 #define	vh_URXH1			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x0424))
 #define vh_UMSTAT1			(*(volatile unsigned *)(vh_UART_CTL_BASE+0x041C))
-#define vh_vULCON                       0  
+#define vh_vULCON                       0
 #define vh_vUCON                        0
 #define vh_UART_BAUD_RATE               115200
 

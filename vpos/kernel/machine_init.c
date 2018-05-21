@@ -6,6 +6,7 @@
 
 void vk_machine_init(void)
 {
+	vh_LedInit();
 	vh_serial_init();
 	vh_timer_init();
 }

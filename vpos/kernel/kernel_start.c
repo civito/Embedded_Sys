@@ -16,6 +16,22 @@ void __aeabi_unwind_cpp_pr0(void){}
 void set_interrupt(void)
 {
 	// interrupt setting
+	vh_serial_irq_enable();
+	vh_timer_irq_enable(vh_TIMER4);
+}
+
+void TIMER_test(void)
+{
+	int timbuffer[10];
+	int i;
+	//Timer4 Start
+	vh_TCON = (vh_TCON & ~0x700000) | 0x600000;
+	vh_TCON = (vh_TCON & ~0x700000) | 0x500000;
+
+	for(i=0; i<10; i++){
+		timbuffer[i] = vh_TCNTO4;
+		printk("timbuffer[%d] = %d\n", i, timbuffer[i]);
+	}
 }
 
 void VPOS_kernel_main( void )
@@ -32,9 +48,11 @@ void VPOS_kernel_main( void )
 	vk_machine_init();
 	set_interrupt();
 
-	
 	printk("%s\n%s\n%s\n", top_line, version, bottom_line);
-	
+
+	//TIMER4 Test...
+	TIMER_test();
+
 	/* initialization for thread */
 	race_var = 0;
 	pthread_create(&p_thread, NULL, VPOS_SHELL, (void *)NULL);

@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 OBJS	Makefile	/^OBJS = kernel_start.o machine_init.o exception_handler.o $/;"	m
 SRCS	Makefile	/^SRCS = kernel_start.c machine_init.c exception_handler.c $/;"	m
+TIMER_test	kernel_start.c	/^void TIMER_test(void)$/;"	f
 VPOS_kernel_main	kernel_start.c	/^void VPOS_kernel_main( void )$/;"	f
 __aeabi_unwind_cpp_pr0	kernel_start.c	/^void __aeabi_unwind_cpp_pr0(void){}$/;"	f
 set_interrupt	kernel_start.c	/^void set_interrupt(void)$/;"	f

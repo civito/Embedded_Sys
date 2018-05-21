@@ -201,7 +201,7 @@ void *race_ex_2(void *arg)
 }
 
 void *VPOS_SHELL(void *arg)
-{
+{ 
 	char c_buff[100];
 	int argc;
 	char *argv[10];

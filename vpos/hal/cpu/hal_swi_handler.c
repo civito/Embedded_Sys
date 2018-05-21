@@ -26,7 +26,7 @@ void vk_swi_classifier(unsigned thread)
 	int i;
 	unsigned int *k=vk_save_swi_mode_stack_ptr;
 	unsigned int *kk=vk_save_swi_current_tcb_bottom;
-	printk("vk_swi_classifier switch up\n");
+	//printk("vk_swi_classifier switch up\n");
 	vector=(vk_thread_t *)thread;
 	number=vector->swi_number;
 	switch(number)
